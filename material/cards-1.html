@@ -112,8 +112,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
+         placeholder="Search..."
+         aria-label="Search..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -176,14 +176,6 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="../intro.html">
-                    QPCC’s collection of Flashcards
-                </a>
-            </li>
-        </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Lecture 1: Demystifying Quantum Computing</a></li>
 </ul>
@@ -342,13 +334,7 @@ document.write(`
 <p class="admonition-title">Lecture 1</p>
 <p>The flash card below is part of the discussion in the tutorial session of lecture 1.</p>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">jupytercards</span> <span class="kn">import</span> <span class="n">display_flashcards</span>
-<span class="n">display_flashcards</span><span class="p">(</span><span class="s1">&#39;./cards_1.json&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
+<div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
@@ -608,7 +594,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="wylUcgZraSdj" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="wylUcgZraSdj-next" onclick="window.checkFlip('wylUcgZraSdj')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="blZXkKVxQTBI" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="blZXkKVxQTBI-next" onclick="window.checkFlip('blZXkKVxQTBI')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -955,14 +941,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("wylUcgZraSdj")) {
-            createCards("wylUcgZraSdj", "True", "False");
+          if(document.getElementById("blZXkKVxQTBI")) {
+            createCards("blZXkKVxQTBI", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardswylUcgZraSdj=[
+var cardsblZXkKVxQTBI=[
     {
         "front": "How does quantum computing (QC) fit alongside classical high-performance computing (HPC) systems & applications?",
         "back": "QC will serve as an accelerator in HPC for specific parts of an application, leading to hybrid HPC-QC systems & applications."
@@ -992,9 +978,9 @@ var cardswylUcgZraSdj=[
         "back": "Investigate potential use-cases of interest, mechanisms for skills development, partners for collaborations & discussion, national & international programmes in which to participate, etc.."
     }
 ];
-var frontColorswylUcgZraSdj= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorswylUcgZraSdj= ["var(--dark-blue-gray)" ];
-var textColorswylUcgZraSdj= ["var(--snow)" ];
+var frontColorsblZXkKVxQTBI= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsblZXkKVxQTBI= ["var(--dark-blue-gray)" ];
+var textColorsblZXkKVxQTBI= ["var(--snow)" ];
 try_create(); </script></div>
 </div>
 </section>
@@ -1072,9 +1058,6 @@ By ICHEC team
   
   <div class="footer-item">
     
-<div class="extra_footer">
-  Copyright@2022
-</div>
   </div>
   
 </div>

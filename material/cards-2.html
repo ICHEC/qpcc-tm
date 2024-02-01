@@ -111,8 +111,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
+         placeholder="Search..."
+         aria-label="Search..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -177,14 +177,6 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="../intro.html">
-                    QPCC’s collection of Flashcards
-                </a>
-            </li>
-        </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
 </ul>
@@ -343,13 +335,7 @@ document.write(`
 <p class="admonition-title">Lecture 2</p>
 <p>The flash card below is part of the discussion in the tutorial session of lecture 2.</p>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">jupytercards</span> <span class="kn">import</span> <span class="n">display_flashcards</span>
-<span class="n">display_flashcards</span><span class="p">(</span><span class="s1">&#39;./cards_2.json&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
+<div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
@@ -609,7 +595,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="yGzYdLzifIkB" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="yGzYdLzifIkB-next" onclick="window.checkFlip('yGzYdLzifIkB')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="DxVZHSNXzYph" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="DxVZHSNXzYph-next" onclick="window.checkFlip('DxVZHSNXzYph')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -956,14 +942,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("yGzYdLzifIkB")) {
-            createCards("yGzYdLzifIkB", "True", "False");
+          if(document.getElementById("DxVZHSNXzYph")) {
+            createCards("DxVZHSNXzYph", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsyGzYdLzifIkB=[
+var cardsDxVZHSNXzYph=[
     {
         "front": "Which mode of operating a quantum computing system allows for turning off noise/errors? Why is this possible?",
         "back": "Software-based simulation. This is because computational models of noise are included as optional features in the simulators."
@@ -993,9 +979,9 @@ var cardsyGzYdLzifIkB=[
         "back": "Consider and/or discuss with the cohort and ICHEC staff about one or more of the following: potential partners, candidate use-case(s), high-level application workflow, software tools, access to platforms, and any reference material (scientific articles, white papers, publicly-available demonstrators, etc.)."
     }
 ];
-var frontColorsyGzYdLzifIkB= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsyGzYdLzifIkB= ["var(--dark-blue-gray)" ];
-var textColorsyGzYdLzifIkB= ["var(--snow)" ];
+var frontColorsDxVZHSNXzYph= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsDxVZHSNXzYph= ["var(--dark-blue-gray)" ];
+var textColorsDxVZHSNXzYph= ["var(--snow)" ];
 try_create(); </script></div>
 </div>
 </section>
@@ -1064,9 +1050,6 @@ By ICHEC team
   
   <div class="footer-item">
     
-<div class="extra_footer">
-  Copyright@2022
-</div>
   </div>
   
 </div>

@@ -1,6 +1,11 @@
 # QPCC's collection of Flashcards
 
-This is the landing page for the QPCC's collection of flashcards used as part of the teaching material.
+```{admonition} About flashcards
+:class: important
+This is the landing page for the QPCC's collection of flashcards used as part of the teaching material. The flashcards shown here consists of `questions and answer` pairs, and are used to facilitate and encourage interaction with the cohorts about lecture specific topics.
+
+We will display the questions, and first seek answers and thoughts from the cohorts, then we will reveal the answers later. Remember that the answers themselve aren't that important, as is the discussion and the process of interaction. So please do not try to `learn` the answer beforehand! 😃
+```
 
 ```{tableofcontents}
 ```

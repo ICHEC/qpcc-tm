@@ -111,8 +111,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
+         placeholder="Search..."
+         aria-label="Search..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -177,14 +177,6 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="../intro.html">
-                    QPCC’s collection of Flashcards
-                </a>
-            </li>
-        </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
 </ul>
@@ -343,13 +335,7 @@ document.write(`
 <p class="admonition-title">Lecture 3</p>
 <p>The flash card below is part of the discussion in the tutorial session of lecture 3.</p>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">jupytercards</span> <span class="kn">import</span> <span class="n">display_flashcards</span>
-<span class="n">display_flashcards</span><span class="p">(</span><span class="s1">&#39;./cards_3.json&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
+<div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
@@ -609,7 +595,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="UHbHjxCudqAU" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="UHbHjxCudqAU-next" onclick="window.checkFlip('UHbHjxCudqAU')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="ydiDPvVJacgY" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="ydiDPvVJacgY-next" onclick="window.checkFlip('ydiDPvVJacgY')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -956,14 +942,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("UHbHjxCudqAU")) {
-            createCards("UHbHjxCudqAU", "True", "False");
+          if(document.getElementById("ydiDPvVJacgY")) {
+            createCards("ydiDPvVJacgY", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsUHbHjxCudqAU=[
+var cardsydiDPvVJacgY=[
     {
         "front": "Discuss the idea of reversibility in Classical and Quantum Gates",
         "back": "Classical gates can in general be irreversible whereas Quantum Gates are always reversible"
@@ -986,9 +972,9 @@ var cardsUHbHjxCudqAU=[
         
     }
 ];
-var frontColorsUHbHjxCudqAU= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsUHbHjxCudqAU= ["var(--dark-blue-gray)" ];
-var textColorsUHbHjxCudqAU= ["var(--snow)" ];
+var frontColorsydiDPvVJacgY= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsydiDPvVJacgY= ["var(--dark-blue-gray)" ];
+var textColorsydiDPvVJacgY= ["var(--snow)" ];
 try_create(); </script></div>
 </div>
 </section>
@@ -1057,9 +1043,6 @@ By ICHEC team
   
   <div class="footer-item">
     
-<div class="extra_footer">
-  Copyright@2022
-</div>
   </div>
   
 </div>
