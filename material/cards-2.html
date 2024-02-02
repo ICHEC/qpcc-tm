@@ -111,8 +111,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search..."
-         aria-label="Search..."
+         placeholder="Search this book..."
+         aria-label="Search this book..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -177,6 +177,14 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    QPCC’s collection of Flashcards
+                </a>
+            </li>
+        </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
 </ul>
@@ -595,7 +603,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="MeibYIBRFlZX" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="MeibYIBRFlZX-next" onclick="window.checkFlip('MeibYIBRFlZX')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="HlGhXgAAQIPw" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="HlGhXgAAQIPw-next" onclick="window.checkFlip('HlGhXgAAQIPw')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -942,14 +950,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("MeibYIBRFlZX")) {
-            createCards("MeibYIBRFlZX", "True", "False");
+          if(document.getElementById("HlGhXgAAQIPw")) {
+            createCards("HlGhXgAAQIPw", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsMeibYIBRFlZX=[
+var cardsHlGhXgAAQIPw=[
     {
         "front": "Which mode of operating a quantum computing system allows for turning off noise/errors? Why is this possible?",
         "back": "Software-based simulation. This is because computational models of noise are included as optional features in the simulators."
@@ -979,9 +987,9 @@ var cardsMeibYIBRFlZX=[
         "back": "Consider and/or discuss with the cohort and ICHEC staff about one or more of the following: potential partners, candidate use-case(s), high-level application workflow, software tools, access to platforms, and any reference material (scientific articles, white papers, publicly-available demonstrators, etc.)."
     }
 ];
-var frontColorsMeibYIBRFlZX= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsMeibYIBRFlZX= ["var(--dark-blue-gray)" ];
-var textColorsMeibYIBRFlZX= ["var(--snow)" ];
+var frontColorsHlGhXgAAQIPw= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsHlGhXgAAQIPw= ["var(--dark-blue-gray)" ];
+var textColorsHlGhXgAAQIPw= ["var(--snow)" ];
 try_create(); </script></div>
 </div>
 </section>
@@ -1050,6 +1058,9 @@ By ICHEC team
   
   <div class="footer-item">
     
+<div class="extra_footer">
+  Copyright@2022
+</div>
   </div>
   
 </div>

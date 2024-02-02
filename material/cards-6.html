@@ -111,8 +111,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search..."
-         aria-label="Search..."
+         placeholder="Search this book..."
+         aria-label="Search this book..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -177,6 +177,14 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    QPCC’s collection of Flashcards
+                </a>
+            </li>
+        </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
 </ul>
@@ -595,7 +603,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="meHNRxPKVWSx" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="meHNRxPKVWSx-next" onclick="window.checkFlip('meHNRxPKVWSx')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="aSyzVpzsSADQ" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="aSyzVpzsSADQ-next" onclick="window.checkFlip('aSyzVpzsSADQ')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -942,14 +950,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("meHNRxPKVWSx")) {
-            createCards("meHNRxPKVWSx", "True", "False");
+          if(document.getElementById("aSyzVpzsSADQ")) {
+            createCards("aSyzVpzsSADQ", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsmeHNRxPKVWSx=[
+var cardsaSyzVpzsSADQ=[
     {
         "front": "Compare high-level and low level quantum programming software - what are the uses cases for both?",
         "back": "High-level quantum programming software is used to interface with classical software components and to encode the quantum algorithms at a higher level. Low level quantum programming software is used as intermediate represention of the required quantum computations and facilitates targeting different quantum execution platforms."
@@ -971,9 +979,9 @@ var cardsmeHNRxPKVWSx=[
         "back": "Open discussion."
     }
 ];
-var frontColorsmeHNRxPKVWSx= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsmeHNRxPKVWSx= ["var(--dark-blue-gray)" ];
-var textColorsmeHNRxPKVWSx= ["var(--snow)" ];
+var frontColorsaSyzVpzsSADQ= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsaSyzVpzsSADQ= ["var(--dark-blue-gray)" ];
+var textColorsaSyzVpzsSADQ= ["var(--snow)" ];
 try_create(); </script></div>
 </div>
 </section>
@@ -1042,6 +1050,9 @@ By ICHEC team
   
   <div class="footer-item">
     
+<div class="extra_footer">
+  Copyright@2022
+</div>
   </div>
   
 </div>

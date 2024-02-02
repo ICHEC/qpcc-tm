@@ -111,8 +111,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search..."
-         aria-label="Search..."
+         placeholder="Search this book..."
+         aria-label="Search this book..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -177,6 +177,14 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    QPCC’s collection of Flashcards
+                </a>
+            </li>
+        </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
 </ul>
@@ -595,7 +603,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="YkFFAclxjuHl" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="YkFFAclxjuHl-next" onclick="window.checkFlip('YkFFAclxjuHl')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="TLNkYDsaMxWV" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="TLNkYDsaMxWV-next" onclick="window.checkFlip('TLNkYDsaMxWV')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -942,14 +950,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("YkFFAclxjuHl")) {
-            createCards("YkFFAclxjuHl", "True", "False");
+          if(document.getElementById("TLNkYDsaMxWV")) {
+            createCards("TLNkYDsaMxWV", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsYkFFAclxjuHl=[
+var cardsTLNkYDsaMxWV=[
     {
         "front": "Discuss the types and sources of noise in a Quantum system",
         "back": "There are two types of Quantum noise, coherent and Incoherent noise and in general Quantum Noise can originate out of three interactions. Interactions between Qubit and the enivronment, interactions between the Gate and the Qubit and interactions between qubits themselves."
@@ -972,9 +980,9 @@ var cardsYkFFAclxjuHl=[
         
     }
 ];
-var frontColorsYkFFAclxjuHl= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsYkFFAclxjuHl= ["var(--dark-blue-gray)" ];
-var textColorsYkFFAclxjuHl= ["var(--snow)" ];
+var frontColorsTLNkYDsaMxWV= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsTLNkYDsaMxWV= ["var(--dark-blue-gray)" ];
+var textColorsTLNkYDsaMxWV= ["var(--snow)" ];
 try_create(); </script></div>
 </div>
 </section>
@@ -1043,6 +1051,9 @@ By ICHEC team
   
   <div class="footer-item">
     
+<div class="extra_footer">
+  Copyright@2022
+</div>
   </div>
   
 </div>

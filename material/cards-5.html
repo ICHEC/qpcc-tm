@@ -111,8 +111,8 @@ const thebe_selector_output = ".output, .cell_output"
          class="form-control"
          name="q"
          id="search-input"
-         placeholder="Search..."
-         aria-label="Search..."
+         placeholder="Search this book..."
+         aria-label="Search this book..."
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -177,6 +177,14 @@ const thebe_selector_output = ".output, .cell_output"
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    QPCC’s collection of Flashcards
+                </a>
+            </li>
+        </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
 </ul>
@@ -595,7 +603,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="KvWhjgOtLJXa" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="KvWhjgOtLJXa-next" onclick="window.checkFlip('KvWhjgOtLJXa')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="NuIqQIbUefQw" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="NuIqQIbUefQw-next" onclick="window.checkFlip('NuIqQIbUefQw')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -942,14 +950,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("KvWhjgOtLJXa")) {
-            createCards("KvWhjgOtLJXa", "True", "False");
+          if(document.getElementById("NuIqQIbUefQw")) {
+            createCards("NuIqQIbUefQw", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsKvWhjgOtLJXa=[
+var cardsNuIqQIbUefQw=[
     {
         "front": "Discuss why should we use quantum computing software simulators when quantum hardware is available.",
         "back": "Accessibility, noiseless simulations, testing environment, learning and education, relatively low cost."
@@ -971,9 +979,9 @@ var cardsKvWhjgOtLJXa=[
         "back": "Example advantages: Low cost, access to academic research, and hardware resources. Example disadvantages: Public release of results."
     }
 ];
-var frontColorsKvWhjgOtLJXa= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
-var backColorsKvWhjgOtLJXa= ["var(--dark-blue-gray)" ];
-var textColorsKvWhjgOtLJXa= ["var(--snow)" ];
+var frontColorsNuIqQIbUefQw= ["var(--asparagus)", "var(--terra-cotta)", "var(--cyan-process)" ];
+var backColorsNuIqQIbUefQw= ["var(--dark-blue-gray)" ];
+var textColorsNuIqQIbUefQw= ["var(--snow)" ];
 try_create(); </script></div>
 </div>
 </section>
@@ -1042,6 +1050,9 @@ By ICHEC team
   
   <div class="footer-item">
     
+<div class="extra_footer">
+  Copyright@2022
+</div>
   </div>
   
 </div>
