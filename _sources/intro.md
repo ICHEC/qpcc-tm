@@ -12,6 +12,9 @@ We will display the questions, and first seek answers and thoughts from the coho
 
 
 
+
+
+
 %Following is the list of flashcards -
 %
 %|Lecture | Cards | Quiz |
