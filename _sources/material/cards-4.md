@@ -23,6 +23,9 @@ We have also added a dropdown list version of the same card below in the page.
 ```
 
 ## Flashcards
+```{tip}
+Click the Card below to reveal the answer.
+```
 
 ```{code-cell}
 :tags: ['remove-input']
