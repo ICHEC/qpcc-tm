@@ -54,18 +54,10 @@
     <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js?v=36754332"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'material/cards-6';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -187,6 +179,7 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cards-2.html">Lecture 2: Integrating HPC and Quantum Computing</a></li>
 </ul>
 
     </div>
@@ -230,6 +223,21 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="article-header-buttons">
 
 
+<a href="https://github.com/ichec/qpcc-tm" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
 
 
 
@@ -241,7 +249,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/material/cards-6.ipynb" target="_blank"
+      <li><a href="../_sources/material/cards-6.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -251,7 +259,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -312,7 +320,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -328,6 +338,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flashcards">Flashcards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alternative-lists">Alternative lists</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -342,9 +361,11 @@ document.write(`
 <div class="admonition-lecture-6 admonition">
 <p class="admonition-title">Lecture 6</p>
 <p>The flash card below is part of the discussion in the tutorial session of lecture 6.</p>
-<p>Here we display the questions, and first seek answers and thoughts from the cohorts, then we will reveal the answers later. Remember that the answers themselve aren’t that important, as is the discussion and the process of interaction.</p>
-<p>So please do not try to <code class="docutils literal notranslate"><span class="pre">learn</span></code> the answer beforehand! 😃</p>
+<p>Here we display the card front, and first seek response and thoughts from the cohorts, then we reveal the back side. Remember that the answers themselve aren’t that important, as is the discussion and the process of interaction. So please do not try to <code class="docutils literal notranslate"><span class="pre">learn</span></code> the answer beforehand! 😃</p>
+<p>We have also added a dropdown list version of the same card below in the page.</p>
 </div>
+<section id="flashcards">
+<h2>Flashcards<a class="headerlink" href="#flashcards" title="Link to this heading">#</a></h2>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
@@ -605,7 +626,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="TSMSkcLJAgke" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="TSMSkcLJAgke-next" onclick="window.checkFlip('TSMSkcLJAgke')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="iGtrdiliwmKI" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="iGtrdiliwmKI-next" onclick="window.checkFlip('iGtrdiliwmKI')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -952,14 +973,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("TSMSkcLJAgke")) {
-            createCards("TSMSkcLJAgke", "True", "False");
+          if(document.getElementById("iGtrdiliwmKI")) {
+            createCards("iGtrdiliwmKI", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsTSMSkcLJAgke=[
+var cardsiGtrdiliwmKI=[
     {
         "front": "Compare high-level and low level quantum programming software - what are the uses cases for both?",
         "back": "High-level quantum programming software is used to interface with classical software components and to encode the quantum algorithms at a higher level. Low level quantum programming software is used as intermediate represention of the required quantum computations and facilitates targeting different quantum execution platforms."
@@ -981,11 +1002,83 @@ var cardsTSMSkcLJAgke=[
         "back": "Open discussion."
     }
 ];
-var frontColorsTSMSkcLJAgke= ["beige" ];
-var backColorsTSMSkcLJAgke= ["cyan" ];
-var textColorsTSMSkcLJAgke= ["black" ];
+var frontColorsiGtrdiliwmKI= ["beige" ];
+var backColorsiGtrdiliwmKI= ["cyan" ];
+var textColorsiGtrdiliwmKI= ["black" ];
 try_create(); </script></div>
 </div>
+</section>
+<section id="alternative-lists">
+<h2>Alternative lists<a class="headerlink" href="#alternative-lists" title="Link to this heading">#</a></h2>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<h3 class="rubric" id="id1"><span id="c1"></span>1</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Compare high-level and low level quantum programming software - what are the uses cases for both?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">High-level quantum programming software is used to interface with classical software components and to encode the quantum algorithms at a higher level. Low level quantum programming software is used as intermediate represention of the required quantum computations and facilitates targeting different quantum execution platforms.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id2"><span id="c2"></span>2</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+If you have to choose between IBM Qiskit and Amazon Braket which one would you choose. Why might you prefer the use of one over the other?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Contrast and compare options in quantum software and hardware component available.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id3"><span id="c3"></span>3</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Do you have a use case in mind for which you might need to build a custom quantum software stack?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Dicsuss chalenges in integrating different quantum and classical components.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id4"><span id="c4"></span>4</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Descibe your experince in preparing quantum circuits in IBM Composer and coding them in different programming languages.<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Open discussion.</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1025,7 +1118,21 @@ try_create(); </script></div>
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flashcards">Flashcards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alternative-lists">Alternative lists</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -6,7 +6,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Search - Landing page for QPCC's flashcards and quizes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>&lt;no title&gt; &#8212; Landing page for QPCC&#39;s flashcards and quizes</title>
   
   
   
@@ -56,12 +58,9 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'search';</script>
-  <script src="_static/searchtools.js"></script>
-  <script src="_static/language_data.js"></script>
-  <script src="searchindex.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'cardgen';</script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
+    <link rel="search" title="Search" href="search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -97,7 +96,7 @@
     <div class="search-button__overlay"></div>
     <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
-      action="#"
+      action="search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -240,6 +239,54 @@
 
 
 
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/cardgen.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
 <button onclick="toggleFullScreen()"
   class="btn btn-sm btn-fullscreen-button"
   title="Fullscreen mode"
@@ -273,7 +320,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -282,42 +331,122 @@ document.write(`
 </div>
               
               
-  <div class="bd-search-container">
-    <h1>Search</h1>
-    <noscript>
-      <div class="admonition error">
-        <p class="admonition-title">Error</p>
-        <p>Please activate JavaScript to enable the search functionality.</p>
-      </div>
-    </noscript>
-    
-<form class="bd-search d-flex align-items-center"
-      action="#"
-      method="get">
-  <i class="fa-solid fa-magnifying-glass"></i>
-  <input type="search"
-         class="form-control"
-         name="q"
-         id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
-         autocomplete="off"
-         autocorrect="off"
-         autocapitalize="off"
-         spellcheck="false"/>
-  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-    <div id="search-results"></div>
-  </div>
-  <script>
-    // Activate the search field on page load
-    let searchInput = document.querySelector("form.bd-search input");
-    if (searchInput) {
-        searchInput.focus();
-        searchInput.select();
-        console.log("[PST]: Set focus on search field.");
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1><no title></h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;material/cards_1.json&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">dic</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="n">ss</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">dic</span><span class="p">):</span>
+    <span class="n">que</span><span class="p">,</span> <span class="n">ans</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;front&#39;</span><span class="p">],</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;back&#39;</span><span class="p">]</span>
+
+    <span class="n">ss</span> <span class="o">+=</span> <span class="s2">&quot;#### &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">````</span><span class="si">{dropdown}</span><span class="s1"> &#39;</span> <span class="o">+</span> <span class="n">que</span>
+    <span class="n">ss</span> <span class="o">+=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">```</span><span class="si">{card}</span><span class="s1"> Answer</span><span class="se">\n</span><span class="s1">&#39;</span>
+    <span class="n">ss</span> <span class="o">+=</span> <span class="n">ans</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">```</span><span class="se">\n</span><span class="s1">````</span><span class="se">\n\n</span><span class="s1">&#39;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ss</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>#### 0
+````{dropdown} How does quantum computing (QC) fit alongside classical high-performance computing (HPC) systems &amp; applications?
+```{card} Answer
+QC will serve as an accelerator in HPC for specific parts of an application, leading to hybrid HPC-QC systems &amp; applications.
+```
+````
+
+#### 1
+````{dropdown} What types of problems can quantum computing (QC) solve better than classical high-performance computing (HPC)?
+```{card} Answer
+Problems with approximations to address intractability, reducing precision when scaling complexity, simulate models which are related to quantum mechanics, etc..
+```
+````
+
+#### 2
+````{dropdown} How would you define your role &amp; value in quantum computing (QC)?
+```{card} Answer
+This is best defined in discussion with experts in quantum computing systems &amp; applications. Opportunities lie in end-user applications, co-development of technologies, ecosystem leadership, skills &amp; training, etc..
+```
+````
+
+#### 3
+````{dropdown} What are key tipping points or milestones for quantum computing (QC) to become more reliable &amp; scalable?
+```{card} Answer
+Improved noise &amp; reliability in qubits &amp; quantum gates, precision in control &amp; engineering of quantum systems, integration of classical HPC &amp; QC systems, higher-level software tools integrated with classical software tools.
+```
+````
+
+#### 4
+````{dropdown} Do quantum computers always need to be refridgerated and operated at extremely low temperatures?
+```{card} Answer
+No all quantum computer realisation methods require refridgeration and operation at extremely low temperatures. For instance, the superconducting approach requires refridgeration, while photonics or diamond-based approaches may be operated at room temperature.
+```
+````
+
+#### 5
+````{dropdown} If real NISQ devices are already available for free access, then do we need software-based simulators of quantum computers?
+```{card} Answer
+Given the limitations of small and error-prone NISQ devices, software-based quantum simulators offer a valuable alternative for easier experimentation and skills development before transitioning to real hardware. Starting with simulators facilitates learning and development, providing a more accessible entry point compared to directly working with NISQ hardware.
+```
+````
+
+#### 6
+````{dropdown} How or where can you start your engagement with quantum computing?
+```{card} Answer
+Investigate potential use-cases of interest, mechanisms for skills development, partners for collaborations &amp; discussion, national &amp; international programmes in which to participate, etc..
+```
+````
+</pre></div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
     }
-  </script>
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
 
               
               
@@ -333,7 +462,20 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>

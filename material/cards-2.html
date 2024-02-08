@@ -54,21 +54,14 @@
     <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js?v=36754332"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'material/cards-2';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Lecture 1: Demystifying Quantum Computing" href="cards-1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -130,8 +123,6 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -185,8 +176,9 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="cards-1.html">Lecture 1: Demystifying Quantum Computing</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Lecture 2: Integrating HPC and Quantum Computing</a></li>
 </ul>
 
     </div>
@@ -230,6 +222,21 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="article-header-buttons">
 
 
+<a href="https://github.com/ichec/qpcc-tm" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
 
 
 
@@ -241,7 +248,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/material/cards-2.ipynb" target="_blank"
+      <li><a href="../_sources/material/cards-2.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -251,7 +258,7 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -312,7 +319,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -328,6 +337,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flashcards">Flashcards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alternative-lists">Alternative lists</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -342,9 +360,11 @@ document.write(`
 <div class="admonition-lecture-2 admonition">
 <p class="admonition-title">Lecture 2</p>
 <p>The flash card below is part of the discussion in the tutorial session of lecture 2.</p>
-<p>Here we display the questions, and first seek answers and thoughts from the cohorts, then we will reveal the answers later. Remember that the answers themselve aren’t that important, as is the discussion and the process of interaction.</p>
-<p>So please do not try to <code class="docutils literal notranslate"><span class="pre">learn</span></code> the answer beforehand! 😃</p>
+<p>Here we display the card front, and first seek response and thoughts from the cohorts, then we reveal the back side. Remember that the answers themselve aren’t that important, as is the discussion and the process of interaction. So please do not try to <code class="docutils literal notranslate"><span class="pre">learn</span></code> the answer beforehand! 😃</p>
+<p>We have also added a dropdown list version of the same card below in the page.</p>
 </div>
+<section id="flashcards">
+<h2>Flashcards<a class="headerlink" href="#flashcards" title="Link to this heading">#</a></h2>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>
@@ -605,7 +625,7 @@ document.write(`
 
 }
 
-</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="WajpmLHktzyP" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="WajpmLHktzyP-next" onclick="window.checkFlip('WajpmLHktzyP')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</style></div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="xJpMvirpubSk" tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="xJpMvirpubSk-next" onclick="window.checkFlip('xJpMvirpubSk')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -952,14 +972,14 @@ function createCards(id, keyControl, grabFocus) {
 
 
         function try_create() {
-          if(document.getElementById("WajpmLHktzyP")) {
-            createCards("WajpmLHktzyP", "True", "False");
+          if(document.getElementById("xJpMvirpubSk")) {
+            createCards("xJpMvirpubSk", "True", "False");
           } else {
              setTimeout(try_create, 200);
           }
         };
     
-var cardsWajpmLHktzyP=[
+var cardsxJpMvirpubSk=[
     {
         "front": "Which mode of operating a quantum computing system allows for turning off noise/errors? Why is this possible?",
         "back": "Software-based simulation. This is because computational models of noise are included as optional features in the simulators."
@@ -989,11 +1009,131 @@ var cardsWajpmLHktzyP=[
         "back": "Consider and/or discuss with the cohort and ICHEC staff about one or more of the following: potential partners, candidate use-case(s), high-level application workflow, software tools, access to platforms, and any reference material (scientific articles, white papers, publicly-available demonstrators, etc.)."
     }
 ];
-var frontColorsWajpmLHktzyP= ["beige" ];
-var backColorsWajpmLHktzyP= ["cyan" ];
-var textColorsWajpmLHktzyP= ["black" ];
+var frontColorsxJpMvirpubSk= ["beige" ];
+var backColorsxJpMvirpubSk= ["cyan" ];
+var textColorsxJpMvirpubSk= ["black" ];
 try_create(); </script></div>
 </div>
+</section>
+<section id="alternative-lists">
+<h2>Alternative lists<a class="headerlink" href="#alternative-lists" title="Link to this heading">#</a></h2>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<h3 class="rubric" id="id1"><span id="c1"></span>1</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Which mode of operating a quantum computing system allows for turning off noise/errors? Why is this possible?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Software-based simulation. This is because computational models of noise are included as optional features in the simulators.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id2"><span id="c2"></span>2</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+What do you consider as a good pathway to start learning quantum programming on a quantum computing system?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Explore application characteristics that could be suitable for quantum computing, identify candidate programming tools and algorithmic methods, gain access to a software simulator (recommended programming on a quantum computing hardware).</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id3"><span id="c3"></span>3</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Do you see benefits in using quantum computing as a part of a hybrid HPC-QC framework?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Consider and discuss this from the views of computing technologies (e.g. CPUs, accelerators), programming tools (e.g. avoiding separate disconnected set of tools), applications (e.g. how GPUs have become general purpose for simulation/AI methods).</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id4"><span id="c4"></span>4</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Can quantum-enhanced machine learning replace classical machine learning?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Not according to our current understanding. Large datasets could not be encoded due to expensive state preparation. So, quantum-enabled machine learning could accelerate certain computational steps within machine learning.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id5"><span id="c5"></span>5</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+What are some national mechanisms available for Irish organisations to access QC or hybrid HPC-QC resources?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">EuroHPC activities such as HPCQS and EuroQCS is currently developing resources for QC and hybrid HPC-QC platforms, tools, use-cases and training material. ICHEC is a partner in many of these activities. Through the National Service and EuroCC activities, ICHEC can support you to gain acccess to these resources and communities.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id6"><span id="c6"></span>6</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+What are some of the hybrid HPC-QC platforms and software tools being developed?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Explore the references provided in this notebook, discuss among the cohort and with ICHEC staff, or search online about EuroHPC, HPCQS, EuroQCS, XACC, AWS Braket, Nvidia QODA/cuQuantum, IBM Quantum Runtime/Serverless, etc.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id7"><span id="c7"></span>7</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+What interdisciplinary skills and resources would you or your organisation need for learning more about hybrid HPC-QC?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Consider and/or discuss with the cohort and ICHEC staff about one or more of the following: potential partners, candidate use-case(s), high-level application workflow, software tools, access to platforms, and any reference material (scientific articles, white papers, publicly-available demonstrators, etc.).</p>
+</div>
+</div>
+</div>
+</details></div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1026,6 +1166,15 @@ try_create(); </script></div>
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="cards-1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Lecture 1: Demystifying Quantum Computing</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
@@ -1033,7 +1182,21 @@ try_create(); </script></div>
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#flashcards">Flashcards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alternative-lists">Alternative lists</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
