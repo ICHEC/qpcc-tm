@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 9: Heterogeneous Quantum Computing
+# 9: Heterogeneous Quantum Computing
 
 ```{admonition} Lecture 9
 The flash card below is part of the discussion in the tutorial session of lecture 2.

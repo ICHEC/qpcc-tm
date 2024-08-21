@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 1: Demystifying Quantum Computing
+# 1: Demystifying Quantum Computing
 
 ```{admonition} Lecture 1
 The flash card below is part of the discussion in the tutorial session of lecture 1.

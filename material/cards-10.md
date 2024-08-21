@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 10: Quantum Algorithms - I
+# 10: Quantum Algorithms - I
 
 ```{admonition} Lecture 10
 The flash card below is part of the discussion in the tutorial session of lecture 7.

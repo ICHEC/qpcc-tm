@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 8: Accessing Quantum Computing Systems
+# 8: Accessing Quantum Computing Systems
 
 ```{admonition} Lecture 8
 The flash card below is part of the discussion in the tutorial session of lecture 5.

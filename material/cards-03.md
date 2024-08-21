@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 3: From Bits to Qubits
+# 3: From Bits to Qubits
 
 ```{admonition} Lecture 3
 The flash card below is part of the discussion in the tutorial session of lecture 3.

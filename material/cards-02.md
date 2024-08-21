@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 2: Integrating Classical and Quantum Computing
+# 2: Integrating Classical and Quantum Computing
 
 ```{admonition} Lecture 2
 The flash card below is part of the discussion in the tutorial session of lecture 2.

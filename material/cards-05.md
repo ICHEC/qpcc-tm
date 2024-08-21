@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 5: Introduction to Quantum Information
+# 5: Introduction to Quantum Information
 
 ```{admonition} Lecture 5
 The flash card below is part of the discussion in the tutorial session of lecture 2.

@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 6: Realising Quantum Computing Systems
+# 6: Realising Quantum Computing Systems
 
 ```{admonition} Lecture 6
 The flash card below is part of the discussion in the tutorial session of lecture 4.

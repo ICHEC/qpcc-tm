@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 7: Hardwares for Quantum Computing
+# 7: Hardwares for Quantum Computing
 
 ```{admonition} Lecture 7
 The flash card below is part of the discussion in the tutorial session of lecture 2.
