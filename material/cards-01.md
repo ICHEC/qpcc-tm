@@ -30,7 +30,7 @@ Click the Card below to reveal the answer.
 ```{code-cell}
 :tags: ['remove-input']
 from jupytercards import display_flashcards
-display_flashcards('./cards_1.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
+display_flashcards('./cards_01.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
 ```
 
 ## Alternative lists
@@ -38,7 +38,7 @@ display_flashcards('./cards_1.json', front_colors=["beige"], back_colors=["cyan"
 ```{code-cell} ipython3
 :tags: ['remove-input']
 import json
-with open("./cards_1.json") as f:
+with open("./cards_01.json") as f:
     dic = json.load(f)
 ss = ''
 for i, d in enumerate(dic):
