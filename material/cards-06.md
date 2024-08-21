@@ -12,9 +12,9 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 4: Realising Quantum Computing Systems
+# Lecture 6: Realising Quantum Computing Systems
 
-```{admonition} Lecture 4
+```{admonition} Lecture 6
 The flash card below is part of the discussion in the tutorial session of lecture 4.
 
 Here we display the card front, and first seek response and thoughts from the cohorts, then we reveal the back side. Remember that the answers themselve aren't that important, as is the discussion and the process of interaction. So please do not try to `learn` the answer beforehand! 😃
@@ -30,7 +30,7 @@ Click the Card below to reveal the answer.
 ```{code-cell}
 :tags: ['remove-input']
 from jupytercards import display_flashcards
-display_flashcards('./cards_4.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
+display_flashcards('./cards_06.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
 ```
 
 ## Alternative lists
@@ -38,7 +38,7 @@ display_flashcards('./cards_4.json', front_colors=["beige"], back_colors=["cyan"
 ```{code-cell} ipython3
 :tags: ['remove-input']
 import json
-with open("./cards_4.json") as f:
+with open("./cards_06.json") as f:
     dic = json.load(f)
 ss = ''
 for i, d in enumerate(dic):

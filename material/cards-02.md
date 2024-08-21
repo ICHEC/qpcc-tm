@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 2: Integrating HPC and Quantum Computing
+# Lecture 2: Integrating Classical and Quantum Computing
 
 ```{admonition} Lecture 2
 The flash card below is part of the discussion in the tutorial session of lecture 2.
@@ -30,7 +30,7 @@ Click the Card below to reveal the answer.
 ```{code-cell}
 :tags: ['remove-input']
 from jupytercards import display_flashcards
-display_flashcards('./cards_2.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
+display_flashcards('./cards_02.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
 ```
 
 ## Alternative lists
@@ -38,7 +38,7 @@ display_flashcards('./cards_2.json', front_colors=["beige"], back_colors=["cyan"
 ```{code-cell} ipython3
 :tags: ['remove-input']
 import json
-with open("./cards_2.json") as f:
+with open("./cards_02.json") as f:
     dic = json.load(f)
 ss = ''
 for i, d in enumerate(dic):
