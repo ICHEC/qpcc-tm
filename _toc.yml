@@ -4,11 +4,15 @@
 format: jb-book
 root: intro
 chapters:
-- file: material/cards-1
-- file: material/cards-2
-- file: material/cards-3
-- file: material/cards-4
-- file: material/cards-5
-- file: material/cards-6
-- file: material/cards-7
-
+- file: material/cards-01.md
+- file: material/cards-02.md
+- file: material/cards-03.md
+- file: material/cards-04.md
+- file: material/cards-05.md
+- file: material/cards-06.md
+- file: material/cards-07.md
+- file: material/cards-08.md
+- file: material/cards-09.md
+- file: material/cards-10.md
+- file: material/cards-11.md
+- file: material/cards-12.md
