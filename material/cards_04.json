@@ -1,10 +1,30 @@
 [
     {
-        "front": "Front",
-        "back": "Back"    
+        "front": "Linear dependence and Independence of vector",
+        "back": "Discuss"
     },
     {
-        "front": "Front",
-        "back": "Back"
+        "front": "Computational complexity of Quantum system's simulation.",
+        "back": "The growing size of the Hilbert space prohibits computation."  
+    },
+    {
+        "front": "Thoughts on Operators as observation and states as abstract vectors",
+        "back": "Discuss"
+    },
+    {
+        "front": "Mathematical interpretation of Quantum measurement.",
+        "back": "Discuss"
+    },
+    {
+        "front": "Combining Quantum systems. Multiple Qubits.",
+        "back": "How does the bigger system looks like, and how it changes the scale of the problem."
+    },
+    {
+        "front": "No-cloning theorem",
+        "back": "Discuss"
+    },
+    {
+        "front": "Do you have any mental health concerns, after this lecture?",
+        "back": " We are here to support :-) "
     }
 ]
