@@ -12,10 +12,10 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# 11: Quantum Algorithms - II
+# 11: NISQ Quantum Algorithms
 
 ```{admonition} Lecture 11
-The flash card below is part of the discussion in the tutorial session of lecture 7.
+The flash card below is part of the discussion in the tutorial session of lecture 11.
 
 Here we display the card front, and first seek response and thoughts from the cohorts, then we reveal the back side. Remember that the answers themselve aren't that important, as is the discussion and the process of interaction. So please do not try to `learn` the answer beforehand! 😃
 
