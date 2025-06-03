@@ -1,7 +1,15 @@
 [
     {
+        "front": "If QPU as an accelerator is similar to GPU/FPGA as an accelerator, then what are the key differences?",
+        "back": "Consider the distinct steps required and their purpose in quantum computing related to quantum encoding, measurements and post-processing as outlined in the quantum computation workflow."
+    },
+    {
         "front": "Which mode of operating a quantum computing system allows for turning off noise/errors? Why is this possible?",
         "back": "Software-based simulation. This is because computational models of noise are included as optional features in the simulators."
+    },
+    {
+        "front": "When modelling and simulating systems (e.g. molecular, materials, etc.) what kind of compromises that are done in classical HPC could quantum computing reduce?",
+        "back": "Review and discuss w.r.t. use of approximation methods when calculating energies of electronic structures, limiting the number of iterations or precision or accuracy when simulating the time evolution of systems, etc."
     },
     {
         "front": "What do you consider as a good pathway to start learning quantum programming on a quantum computing system?",
@@ -16,12 +24,24 @@
         "back": "Not according to our current understanding. Large datasets could not be encoded due to expensive state preparation. So, quantum-enabled machine learning could accelerate certain computational steps within machine learning."
     },
     {
+        "front": "How could AI and QC enable each other?",
+        "back": "Review and discuss along the lines of QC addressing search and optimisation steps in machine learning, and AI/machine learning for design, simulation and control of QC systems."
+    },
+    {
         "front": "What are some national mechanisms available for Irish organisations to access QC or hybrid HPC-QC resources?",
         "back": "EuroHPC activities such as HPCQS and EuroQCS is currently developing resources for QC and hybrid HPC-QC platforms, tools, use-cases and training material. ICHEC is a partner in many of these activities. Through the National Service and EuroCC activities, ICHEC can support you to gain acccess to these resources and communities."
     },
     {
         "front": "What are some of the hybrid HPC-QC platforms and software tools being developed?",
         "back": "Explore the references provided in this notebook, discuss among the cohort and with ICHEC staff, or search online about EuroHPC, HPCQS, EuroQCS, XACC, AWS Braket, Nvidia QODA/cuQuantum, IBM Quantum Runtime/Serverless, etc."
+    },
+    {
+        "front": "What European activities are advancing the development of quantum computing system software?",
+        "back": "The main ones are under the EuroHPC HPC-QCS projects (HPCQS, EuroQCS) along with national initiatives (Munich Quantum Software Stack, CEA in France, etc.). ICHEC and Ireland is also involved in co-developing these."
+    },
+    {
+        "front": "Which one is the best quantum computing software framework to use?",
+        "back": "The jury is out on this. They are all under development - some cater to specific disciplines, some have better interoperability, some have a wider range of programming language options, etc.. Review and select based on your learning objective."
     },
     {
         "front": "What interdisciplinary skills and resources would you or your organisation need for learning more about hybrid HPC-QC?",

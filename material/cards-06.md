@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# Lecture 6: Landscape of Quantum SDK's and Tools
+# 6: Realising Quantum Computing Systems
 
 ```{admonition} Lecture 6
 The flash card below is part of the discussion in the tutorial session of lecture 6.
@@ -30,7 +30,7 @@ Click the Card below to reveal the answer.
 ```{code-cell}
 :tags: ['remove-input']
 from jupytercards import display_flashcards
-display_flashcards('./cards_6.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
+display_flashcards('./cards_06.json', front_colors=["beige"], back_colors=["cyan"], text_colors=["black"])
 ```
 
 ## Alternative lists
@@ -38,7 +38,7 @@ display_flashcards('./cards_6.json', front_colors=["beige"], back_colors=["cyan"
 ```{code-cell} ipython3
 :tags: ['remove-input']
 import json
-with open("./cards_6.json") as f:
+with open("./cards_06.json") as f:
     dic = json.load(f)
 ss = ''
 for i, d in enumerate(dic):

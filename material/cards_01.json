@@ -4,6 +4,18 @@
         "back": "QC will serve as an accelerator in HPC for specific parts of an application, leading to hybrid HPC-QC systems & applications."
     },
     {
+        "front": "What type of sectors and computational problems does classical high-performance computing (HPC) enable?",
+        "back": "Discuss across material science, engineering and manufacturing, molecular modelling, life science, fin tech, data analytics, machine learning, optimisation, logistics, modelling and simulation in fundamental sciences."
+    },
+    {
+        "front": "If you were/need to gain access to quantum computers, then would you want on-premise or remote cloud access? Why?",
+        "back": "Review your value proposition in quantum computing to identify your role (technology co-developer, service provider, user), security/strategy requirements, etc.. Also, consider your  software stack for your access mechanism."
+    },
+    {
+        "front": "What is the nature and what are some examples of BQP class problems?",
+        "back": "A bounded-error quantum polynomial time problem denotes one that is solvable by a quantum computer in polynomial time, with an error probability of at most 1/4 for all instances. Refer and discuss further details https://www.quantiki.org/wiki/bqp."
+    },
+    {
         "front": "What types of problems can quantum computing (QC) solve better than classical high-performance computing (HPC)?",
         "back": "Problems with approximations to address intractability, reducing precision when scaling complexity, simulate models which are related to quantum mechanics, etc.."
     },
@@ -26,5 +38,9 @@
     {
         "front": "How or where can you start your engagement with quantum computing?",
         "back": "Investigate potential use-cases of interest, mechanisms for skills development, partners for collaborations & discussion, national & international programmes in which to participate, etc.."
-    }
+    },
+    {
+        "front": "What are some mechanisms through which I can get access to quantum computing environments now?",
+        "back": "There are a variety of free, open as well as paid, closed resources and support available. These are at national, European and global levels. Discuss with the ICHEC tutors to identify what suits your requirements."
+    }    
 ]
