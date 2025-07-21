@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/style.css?v=fac5132c" />
@@ -533,18 +533,18 @@ document.write(`
 
 .flashcardKnown {
     display: block;
-    position: relative;
-    top: 90%;
-    left: 85%;
+    position: absolute;
+    right: 64px;
+    bottom: 10px;
     width: 2em;
     height: auto;
 }
 
 .flashcardNotKnown {
     display: block;
-    position: relative;
-    top: 80%;
-    left: 94%;
+    position: absolute;
+    right: 26px;
+    bottom: 15px;
     width: 1.3em;
     height: auto;
 }
@@ -694,7 +694,6 @@ document.write(`
         left: 4px;
     }
 
-
 }
 
 @media only screen and (max-width:330px) and (max-height:600px) {
@@ -707,7 +706,7 @@ document.write(`
     }
     .back {
         left: 4px;
-    }
+   }
 }
 
 </style></div><div class="output text_html"><svg xmlns="http://www.w3.org/2000/svg"
@@ -737,7 +736,7 @@ document.write(`
     <path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 10.293l5.293-5.293.707.707-5.293 5.293 5.293 5.293-.707.707-5.293-5.293-5.293 5.293-.707-.707 5.293-5.293-5.293-5.293.707-.707 5.293 5.293z"/>
   </symbol>
 </svg>
-</div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="UYgjidRgihTM" data-topics='[]' data-known-widgets='true' data-local-storage='false' tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="UYgjidRgihTM-next" onclick="window.checkFlip('UYgjidRgihTM')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
+</div><div class="output text_html"><div style="height:40px"></div><div class="flip-container" id="gEtHWxpbOyyL" data-topics='[]' data-known-widgets='true' data-local-storage='false' tabindex="0" style="outline:none;"></div><div style="height:40px"></div><div class="next" id="gEtHWxpbOyyL-next" onclick="window.checkFlip('gEtHWxpbOyyL')"> </div> <div style="height:40px"></div></div><script type="application/javascript">/*!
  * swiped-events.js - v1.1.4
  * Pure JavaScript swipe events
  * https://github.com/john-doherty/swiped-events
@@ -1533,10 +1532,10 @@ window.setTopics = function(idOrElem, topics) {
 
 (function() {
     var observer = new MutationObserver(function(mutations, obs) {
-        var el = document.getElementById("UYgjidRgihTM");
+        var el = document.getElementById("gEtHWxpbOyyL");
         if (el) {
             el.dataset.url = "";
-            el.dataset.cards = JSON.stringify([{"front": "Discuss the idea of reversibility in classical and quantum gates", "back": "Classical gates can in general be irreversible whereas quantum gates are always reversible.", "seqNum": 0}, {"front": "Discuss the differences in the features of classical and quantum computing", "back": "Differences : No irreversible gates in quantum computing while classical gates can be reversible, copying of states is not possible with qubits but it's possible to copy bits in classical computing, quantum bits exhibit superposition/entanglement which are not exhibited by classical bits, quantum measurements are probabilstic whereas classical results are deterministic.", "seqNum": 1}, {"front": "Discuss the similarities in the features of classical and quantum computing", "back": " Similarities : Both have universal gatesets, and require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases.", "seqNum": 2}, {"front": "What are the implications of no-cloning theorem on practical quantum computing", "back": "Unlike classical bits, one can not copy qubits. This makes the tackling of errors and noise even more challenging.", "seqNum": 3}]);
+            el.dataset.cards = JSON.stringify([{"front": "What does Linear dependence and Independence of vectors imply? ", "back": "Discuss", "seqNum": 0}, {"front": "How is the Computational complexity of Quantum system's simulation on a classical system connected to the size of the quantum system.", "back": "The growing size of the Hilbert space prohibits computation.", "seqNum": 1}, {"front": "Is the connection between states represented as vectors and operators represented as matrices clear?", "back": "Discuss", "seqNum": 2}, {"front": "What is the mathematical implication of the measurement of the quantum state, what happens to the vector when measured in a basis?", "back": "Discuss", "seqNum": 3}, {"front": "How do you combine the hilbert space created by multople qubits, how do the vectors change and how do the operators change?", "back": "How does the bigger system looks like, and how it changes the scale of the problem.", "seqNum": 4}, {"front": "Mathematical connection to derive no-cloning theorem", "back": "Discuss", "seqNum": 5}]);
             el.dataset.frontColors = JSON.stringify(["beige"]);
             el.dataset.backColors = JSON.stringify(["cyan"]);
             el.dataset.textColors = JSON.stringify(["black"]);
@@ -1545,7 +1544,7 @@ window.setTopics = function(idOrElem, topics) {
             el.dataset.shuffleCards = false;
             el.dataset.title = "";
             el.dataset.subject = "";
-            createCards("UYgjidRgihTM");
+            createCards("gEtHWxpbOyyL");
             obs.disconnect();
         }
     });
@@ -1560,48 +1559,72 @@ window.setTopics = function(idOrElem, topics) {
 <h3 class="rubric" id="id1"><span id="c1"></span>1</h3>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">Discuss the idea of reversibility in classical and quantum gates</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<span class="sd-summary-text">What does Linear dependence and Independence of vectors imply?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <div class="sd-card-title sd-font-weight-bold docutils">
 Answer</div>
-<p class="sd-card-text">Classical gates can in general be irreversible whereas quantum gates are always reversible.</p>
+<p class="sd-card-text">Discuss</p>
 </div>
 </div>
 </div>
 </details><h3 class="rubric" id="id2"><span id="c2"></span>2</h3>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">Discuss the differences in the features of classical and quantum computing</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<span class="sd-summary-text">How is the Computational complexity of Quantum system’s simulation on a classical system connected to the size of the quantum system.</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <div class="sd-card-title sd-font-weight-bold docutils">
 Answer</div>
-<p class="sd-card-text">Differences : No irreversible gates in quantum computing while classical gates can be reversible, copying of states is not possible with qubits but it’s possible to copy bits in classical computing, quantum bits exhibit superposition/entanglement which are not exhibited by classical bits, quantum measurements are probabilstic whereas classical results are deterministic.</p>
+<p class="sd-card-text">The growing size of the Hilbert space prohibits computation.</p>
 </div>
 </div>
 </div>
 </details><h3 class="rubric" id="id3"><span id="c3"></span>3</h3>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">Discuss the similarities in the features of classical and quantum computing</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<span class="sd-summary-text">Is the connection between states represented as vectors and operators represented as matrices clear?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <div class="sd-card-title sd-font-weight-bold docutils">
 Answer</div>
-<p class="sd-card-text">Similarities : Both have universal gatesets, and require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases.</p>
+<p class="sd-card-text">Discuss</p>
 </div>
 </div>
 </div>
 </details><h3 class="rubric" id="id4"><span id="c4"></span>4</h3>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">What are the implications of no-cloning theorem on practical quantum computing</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<span class="sd-summary-text">What is the mathematical implication of the measurement of the quantum state, what happens to the vector when measured in a basis?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
 <div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
 <div class="sd-card-body docutils">
 <div class="sd-card-title sd-font-weight-bold docutils">
 Answer</div>
-<p class="sd-card-text">Unlike classical bits, one can not copy qubits. This makes the tackling of errors and noise even more challenging.</p>
+<p class="sd-card-text">Discuss</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id5"><span id="c5"></span>5</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">How do you combine the hilbert space created by multople qubits, how do the vectors change and how do the operators change?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">How does the bigger system looks like, and how it changes the scale of the problem.</p>
+</div>
+</div>
+</div>
+</details><h3 class="rubric" id="id6"><span id="c6"></span>6</h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Mathematical connection to derive no-cloning theorem</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Answer</div>
+<p class="sd-card-text">Discuss</p>
 </div>
 </div>
 </div>
