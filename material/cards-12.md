@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# 12: Quantum Activities in ICHEC
+# 12: ICHEC's engagement in Quantum Computing
 
 ```{admonition} Lecture 12
 The flash card below is part of the discussion in the tutorial session of lecture 2.
