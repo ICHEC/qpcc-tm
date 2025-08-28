@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# 9: Heterogeneous Quantum Computing
+# 9: Early Quantum Algorithms I
 
 ```{admonition} Lecture 9
 The flash card below is part of the discussion in the tutorial session of lecture 9.
