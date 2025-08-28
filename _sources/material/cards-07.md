@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# 7: Hardwares for Quantum Computing
+# 7: Building a Quantum Computer
 
 ```{admonition} Lecture 7
 The flash card below is part of the discussion in the tutorial session of lecture 7.
