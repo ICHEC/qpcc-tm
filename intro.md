@@ -1,3 +1,17 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+mystnb:
+  render_markdown_format: myst
+---
+
 # CT4110: collection of Flashcards for the tutorial session
 
 ```{admonition} About flashcards
@@ -9,5 +23,16 @@ We will display the card front, and first seek response and thoughts from the co
 We have also added a dropdown list version of the same card below in the page.
 ```
 
-```{tableofcontents}
+
+```{code-cell} ipython3
+:tags: ['remove-input']
+ss = ''
+for i in range(1,13):
+    fl = './material/cards-' + f"{i:02d}" + '.md'
+    with open(fl) as f:
+        txt = f.read()
+    title = [l for l in txt.splitlines() if l.startswith('# ')][0][2:]
+    ss += f"- [{title}]({fl})" + '\n'
+from IPython.display import display, Markdown
+display(Markdown(ss))
 ```
