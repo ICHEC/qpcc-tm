@@ -1,26 +1,18 @@
 [
     {
-        "front": "What does Linear dependence and Independence of vectors imply? ",
-        "back": "Discuss"
+        "front": "What is Moore's law and how is it relevant to quantum computing? ",
+        "back": "Moore's law states that the number of transistors on a microprocessor doubles approximately every two years. When we make transistors smaller and smaller (to squeeze more in to each microchip), their behaviour is only accurately described by quantum physics."
     },
     {
-        "front": "How is the Computational complexity of Quantum system's simulation on a classical system connected to the size of the quantum system.",
-        "back": "The growing size of the Hilbert space prohibits computation."  
+        "front": "Discuss the similarities in the features of classical and quantum computing",
+        "back": "Both require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases. Both have universal gate sets."  
     },
     {
-        "front": "Is the connection between states represented as vectors and operators represented as matrices clear?",
-        "back": "Discuss"
+        "front": "Discuss the differences in the features of classical and quantum computing",
+        "back": "Classical gates can be irreversible, quantum gates cannot. Classical bits can be copied, qubits cannot. Qubits exhibit superposition/entanglement, classical bits do not. Quantum measurements are probabilstic whereas classical measurements are deterministic."
     },
     {
-        "front": "What is the mathematical implication of the measurement of the quantum state, what happens to the vector when measured in a basis?",
-        "back": "Discuss"
-    },
-    {
-        "front": "How do you combine the hilbert space created by multople qubits, how do the vectors change and how do the operators change?",
-        "back": "How does the bigger system looks like, and how it changes the scale of the problem."
-    },
-    {
-        "front": "Mathematical connection to derive no-cloning theorem",
-        "back": "Discuss"
+        "front": "What are the implications of no-cloning theorem on practical quantum computing?",
+        "back": "It makes the tackling of errors and noise even more challenging due to the lack of a straightforward way to add redundancy to quantum information."
     }
 ]
