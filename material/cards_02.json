@@ -14,5 +14,17 @@
     {
         "front": "What are the implications of no-cloning theorem on practical quantum computing?",
         "back": "It makes the tackling of errors and noise even more challenging due to the lack of a straightforward way to add redundancy to quantum information."
+    },
+    {
+        "front": "What is a universal gate set in quantum computing?",
+        "back": "A universal gate set is a collection of quantum gates that can be combined to approximate any quantum operation to arbitrary precision. An example is the set {H, S, T, CNOT}."    
+    },
+    {
+        "front": "Discuss the connection between superposition and quantum measurement",
+        "back": "A quantum system can exist in a superposition of states. When a measurement is made, the superposition collapses to one of the possible states, with the outcome being probabilistic based on the amplitudes of the superposed states."
+    },
+    {
+        "front": "What is the difference between superposition and entanglement?",
+        "back": "Superposition is where a single qubit can exist in multiple states simultaneously. Entanglement is where multiple qubits become correlated such that the state of one qubit cannot be described independently of the state of the others."
     }
 ]
