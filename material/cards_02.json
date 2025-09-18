@@ -9,7 +9,7 @@
     },
     {
         "front": "Discuss the differences in the features of classical and quantum computing",
-        "back": "Classical gates can be irreversible, quantum gates cannot. Classical bits can be copied, qubits cannot. Qubits exhibit superposition/entanglement, classical bits do not. Quantum measurements are probabilstic whereas classical measurements are deterministic."
+        "back": "Classical gates can be irreversible, quantum gates cannot. Classical bits can be copied, qubits cannot. Qubits exhibit superposition/entanglement, classical bits do not. Quantum measurements are probabilistic whereas classical measurements are deterministic."
     },
     {
         "front": "What are the implications of no-cloning theorem on practical quantum computing?",
@@ -25,6 +25,6 @@
     },
     {
         "front": "What is the difference between superposition and entanglement?",
-        "back": "Superposition is where a single qubit can exist in multiple states simultaneously. Entanglement is where multiple qubits become correlated such that the state of one qubit cannot be described independently of the state of the others."
+        "back": "Superposition is where a single quantum system can exist in multiple states 'simultaneously'. Entanglement is where multiple quantum systems become correlated such that the state of one system cannot be described independently of the state of the others."
     }
 ]
