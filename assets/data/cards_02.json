@@ -1,0 +1,30 @@
+[
+    {
+        "front": "What is Moore's law and how is it relevant to quantum computing? ",
+        "back": "Moore's law states that the number of transistors on a microprocessor doubles approximately every two years. When we make transistors smaller and smaller (to squeeze more in to each microchip), their behaviour is only accurately described by quantum physics."
+    },
+    {
+        "front": "Discuss the similarities in the features of classical and quantum computing",
+        "back": "Both require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases. Both have universal gate sets."  
+    },
+    {
+        "front": "Discuss the differences in the features of classical and quantum computing",
+        "back": "Classical gates can be irreversible, quantum gates cannot. Classical bits can be copied, qubits cannot. Qubits exhibit superposition/entanglement, classical bits do not. Quantum measurements are probabilistic whereas classical measurements are deterministic."
+    },
+    {
+        "front": "What are the implications of no-cloning theorem on practical quantum computing?",
+        "back": "It makes the tackling of errors and noise even more challenging due to the lack of a straightforward way to add redundancy to quantum information."
+    },
+    {
+        "front": "What is a universal gate set in quantum computing?",
+        "back": "A universal gate set is a collection of quantum gates that can be combined to approximate any quantum operation to arbitrary precision. An example is the set {H, S, T, CNOT}."    
+    },
+    {
+        "front": "Discuss the connection between superposition and quantum measurement",
+        "back": "A quantum system can exist in a superposition of states. When a measurement is made, the superposition collapses to one of the possible states, with the outcome being probabilistic based on the amplitudes of the superposed states."
+    },
+    {
+        "front": "What is the difference between superposition and entanglement?",
+        "back": "Superposition is where a single quantum system can exist in multiple states 'simultaneously'. Entanglement is where multiple quantum systems become correlated such that the state of one system cannot be described independently of the state of the others."
+    }
+]
