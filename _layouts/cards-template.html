@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/flashcards.css' | relative_url }}">
+
+<a href="{{ '/' | relative_url }}" class="back-link">← Back to Home</a>
+<h1>{{ page.title }}</h1>
+
+<!-- Container: JS injects cards here -->
+<div class="flashcard-container" id="flashcard-container"></div>
+
+<!-- Navigation -->
+<div class="flashcard-nav">
+  <button id="prevBtn">← Prev</button>
+  <button id="nextBtn">Next →</button>
+</div>
+
+<!-- marked.js -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- MathJax -->
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+  svg: { fontCache: 'global' }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<!-- Flashcards logic -->
+<script src="{{ '/assets/js/flashcards.js' | relative_url }}"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    loadFlashcards("{{ page.jsonfile | relative_url }}");
+  });
+</script>
