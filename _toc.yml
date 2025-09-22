@@ -3,16 +3,40 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: material/cards-01.md
-- file: material/cards-02.md
-- file: material/cards-03.md
-- file: material/cards-04.md
-- file: material/cards-05.md
-- file: material/cards-06.md
-- file: material/cards-07.md
-- file: material/cards-08.md
-- file: material/cards-09.md
-- file: material/cards-10.md
-- file: material/cards-11.md
-- file: material/cards-12.md
+parts:
+  - caption: Topic 1
+    chapters:
+    - file: material/cards-01.md
+  - caption: Topic 2
+    chapters:
+    - file: material/cards-02.md
+  - caption: Topic 3
+    chapters:
+    - file: material/cards-03.md
+  - caption: Topic 4
+    chapters:
+    - file: material/cards-04.md
+  - caption: Topic 5
+    chapters:
+    - file: material/cards-05.md
+  - caption: Topic 6
+    chapters:
+    - file: material/cards-06.md
+  - caption: Topic 7
+    chapters:
+    - file: material/cards-07.md
+  - caption: Topic 8
+    chapters:
+    - file: material/cards-08.md
+  - caption: Topic 9
+    chapters:
+    - file: material/cards-09.md
+  - caption: Topic 10
+    chapters:
+    - file: material/cards-10.md
+  - caption: Topic 11
+    chapters:
+    - file: material/cards-11.md
+  - caption: Topic 12
+    chapters:
+    - file: material/cards-12.md

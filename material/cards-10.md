@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# 10: Early Quantum Algorithms
+# 10: Early Quantum Algorithms II
 
 ```{admonition} Lecture 10
 The flash card below is part of the discussion in the tutorial session of lecture 10.

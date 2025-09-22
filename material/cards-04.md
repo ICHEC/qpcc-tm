@@ -12,7 +12,7 @@ mystnb:
   render_markdown_format: myst
 ---
 
-# 4: Mathematical framework for Quantum Computing
+# 4: Mathematical framework for Quantum Computing II
 
 ```{admonition} Lecture 4
 The flash card below is part of the discussion in the tutorial session of lecture 4.

@@ -90,5 +90,21 @@
     {
         "front": "What interdisciplinary skills and resources would you or your organisation need for learning more about hybrid HPC-QC?",
         "back": "Consider and/or discuss with the cohort and ICHEC staff about one or more of the following: potential partners, candidate use-case(s), high-level application workflow, software tools, access to platforms, and any reference material (scientific articles, white papers, publicly-available demonstrators, etc.)."
+    },
+    {
+        "front": "Discuss the idea of reversibility in classical and quantum gates",
+        "back": "Classical gates can in general be irreversible whereas quantum gates are always reversible."
+    },
+    {
+        "front": "Discuss the differences in the features of classical and quantum computing",
+        "back": "Differences : No irreversible gates in quantum computing while classical gates can be reversible, copying of states is not possible with qubits but it's possible to copy bits in classical computing, quantum bits exhibit superposition/entanglement which are not exhibited by classical bits, quantum measurements are probabilstic whereas classical results are deterministic."
+    },
+    {
+        "front": "Discuss the similarities in the features of classical and quantum computing",
+        "back": " Similarities : Both have universal gatesets, and require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases."
+    },
+    {
+        "front": "What are the implications of no-cloning theorem on practical quantum computing",
+        "back": "Unlike classical bits, one can not copy qubits. This makes the tackling of errors and noise even more challenging."
     }
 ]
