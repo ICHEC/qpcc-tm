@@ -1,43 +1,52 @@
-# Book settings
-# Learn more at https://jupyterbook.org/customize/config.html
+# Configurations
+title:            QPCC Flashcards
+longtitle:        Landing page for QPCC's flashcards
+author:           ICHEC Quantum Team
+email:            qpcc@ichec.ie
+description: Flashcards for the CT4110 tutorials
 
-title: Landing page for QPCC's flashcards and quizes
-author: ICHEC team
-logo: logo.png
+url:              'https://ichec.github.io'
+baseurl:          '/qpcc-tm'
+theme: minima
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
-execute:
-  execute_notebooks: force
+# bootstrap: use the remote theme for the site itself
+#remote_theme: sighingnow/jekyll-gitbook
 
-# Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
+markdown_ext: md
+#, markdown,mkdown,mkdn,mkd,
 
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
+#toc:
+#  enabled: true
+#  h_min: 1
+#  h_max: 4
 
-# Information about where the book exists on the web
-repository:
-  url: https://github.com/ichec/ct4106-tm  # Online location of your book
-  path_to_book: .  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+# favicon_path:     /assets/gitbook/images/favicon.ico
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
-html:
-  use_issues_button: false
-  use_repository_button: true
-  extra_footer: "Copyright@2022"
+# markdown render engine.
+markdown:         kramdown
 
-# remove jupyterbooks copyright info
-sphinx:
-  extra_extensions: ['myst_nb']
-  recursive_update: true
-  config:
-    html_show_copyright: false
-    # show_navbar_depth: 1 
-    #html_theme_options: {"collapse_navbar": "true"}
-    #html_sidebars: "false" #{"**": ["navbar-logo.html"]}
+exclude:
+  - _drafts
+  - scratch
+  - README.md
+
+include:
+  - assets/quizzes
+
+collections:
+  lectures:
+    output: true
+    permalink: /lectures/:name
+
+destination:      ./_site
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-relative-links
+  - jemoji
+  - jekyll-youtube
+
+titles_from_headings:
+  enabled: false
