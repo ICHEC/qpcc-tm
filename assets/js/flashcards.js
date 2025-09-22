@@ -19,16 +19,19 @@ function renderFlashcard(direction = "next") {
   const cardData = flashcards[currentIndex];
   const card = document.createElement("div");
   card.className = `flashcard ${direction === "next" ? "enter-next" : "enter-prev"}`;
-
+  const total = flashcards.length;
+  const cardNumber = currentIndex + 1; 
   card.innerHTML = `
     <div class="flashcard-inner">
       <div class="flashcard-front">
         <span class="card-label">Front (${cardNumber}/${total})</span>
         ${marked.parse(cardData.front)}
+        <span class="card-tip"> Click to turn</span>
       </div>
       <div class="flashcard-back">
         <span class="card-label">Back (${cardNumber}/${total})</span>
         ${marked.parse(cardData.back)}
+        <span class="card-tip"> Click to turn</span>
       </div>
     </div>
   `;

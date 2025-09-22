@@ -32,12 +32,12 @@ exclude:
   - README.md
 
 include:
-  - assets/quizzes
+  - assets/data
 
 collections:
-  lectures:
+  material:
     output: true
-    permalink: /lectures/:name
+    permalink: /material/:name
 
 destination:      ./_site
 regenerate:       true
