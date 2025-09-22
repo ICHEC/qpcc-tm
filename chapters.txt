@@ -1,7 +1,0 @@
-1. Demystifying Quantum Computing
-2. Integrating Classical and Quantum Computing
-3. From Bits to Qubits
-4. Realizing Quantum Computing Systems
-5. Accessing Quantum Computing Systems
-6. Landscape of Quantum SDK’s and Tools
-7. Landscape of Quantum Algorithms
