@@ -1,7 +1,7 @@
 [
     {
         "front": "What is Moore's law and how is it relevant to quantum computing? ",
-        "back": "Moore's law states that the number of transistors on a microprocessor doubles approximately every two years. When we make transistors smaller and smaller (to squeeze more in to each microchip), their behaviour is only accurately described by quantum physics."
+        "back": "Moore's law states that the number of transistors on a microprocessor doubles approximately every two years. When we make transistors smaller and smaller (to squeeze more in to a microchip), their behaviour is only accurately described by quantum physics."
     },
     {
         "front": "Discuss the similarities in the features of classical and quantum computing",
