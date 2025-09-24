@@ -9,7 +9,7 @@
     },
         {
         "front": "What is the meaning of multiplication of vectors? ",
-        "back": "Vectors can be multiplied in two main ways: the inner product (which results in a scalar) and the outer product (which results in another vector). We can also multiply vectors by scalars to scale their magnitude. This results in a new vector that points in the same or opposite direction, depending on the sign of the scalar."
+        "back": "Vectors can be multiplied together in two main ways: the inner product (which results in a scalar) and the outer product (which results in a matrix). We can also multiply vectors by scalars to scale their magnitude. This results in a new vector that points in the same or opposite direction, depending on the sign of the scalar."
     },
     {
         "front": "What does linear dependence and independence of vectors imply? ",
