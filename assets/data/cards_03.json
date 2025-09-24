@@ -1,10 +1,34 @@
 [
     {
-        "front": "What does Linear dependence and Independence of vectors imply? ",
-        "back": "Discuss"
+        "front": "What is a set? Are these sets equivalent: {1,2,3} and {3,2,1}?",
+        "back": "A set is a collection of distinct elements. Yes, these sets are equivalent because the order of elements in a set does not matter."
     },
     {
-        "front": "Mathematical connection to derive no-cloning theorem",
-        "back": "Discuss"
+        "front": "Discuss your understanding of the mapping of the state of a qubit to a point on a unit sphere",
+        "back": "The state of a qubit can be written in terms of two angles, θ and φ, which correspond to spherical coordinates on a unit sphere. The north and south poles represent the basis states |0⟩ and |1⟩, respectively, while any other point on the sphere represents a superposition of these states."
+    },
+        {
+        "front": "What is the meaning of multiplication of vectors? ",
+        "back": "Vectors can be multiplied in two main ways: the inner product (which results in a scalar) and the outer product (which results in another vector). We can also multiply vectors by scalars to scale their magnitude. This results in a new vector that points in the same or opposite direction, depending on the sign of the scalar."
+    },
+    {
+        "front": "What does linear dependence and independence of vectors imply? ",
+        "back": "Linear independence means that no vector in the set can be expressed as a linear combination of the others. If they are linearly dependent, at least one vector can be written as such a combination."
+    },
+    {
+        "front": "What is a basis? What is its significance in a vector space? Can it contain an arbitrary number of vectors?",
+        "back": "A basis is a set of linearly independent vectors that span a vector space. It is significant because any vector in the space can be uniquely expressed as a linear combination of the basis vectors. The number of vectors in a basis is equal to the dimension of the vector space, so it cannot contain an arbitrary number of vectors."
     }
+        {
+        "front": "Explain the matrix representation of a linear map.",
+        "back": "Any linear map from one vector space, A, to another, B, can be represented by a matrix. The columns of the matrix correspond to the images of the basis vectors of A under the map. The action of the linear map on a vector is equivalent to multiplying the matrix by the vector."
+    },
+        {
+        "front": "Is any vector space a Hilbert space? ",
+        "back": "No, a Hilbert space is a specific type of vector space that is complete and has an inner product which defines the notion of distance. Not all vector spaces have these properties."
+    },
+        {
+        "front": "Explain what is meant by an orthonormal basis.",
+        "back": "An orthonormal basis is a set of basis vectors that are both orthogonal (perpendicular to each other) and normalized (each vector has a length of one). This means that the inner product of any two different basis vectors is zero, and the inner product of a basis vector with itself is one."
+    },
 ]
