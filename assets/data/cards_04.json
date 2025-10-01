@@ -21,7 +21,7 @@
     },
     {
         "front": "Why do we need normalized vectors for a quantum state. Can't we work with a vectors of arbitrary magnitude?",
-        "back": "The state $|s\\rangle = c_1|1\\rangle + c_2|2\\rangle + ... c_n|n\\rangle$ has probability $|c_i|^2 which should sum up to 1.$"
+        "back": "The state $|s\\rangle = c_1|1\\rangle + c_2|2\\rangle + ... c_n|n\\rangle$ has probability $|c_i|^2$ which should sum up to 1."
     },
     {
         "front": "What is the mathematical implication of the measurement of the quantum state, what happens to the vector when measured in a basis?",
