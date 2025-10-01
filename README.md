@@ -95,3 +95,18 @@ The structure of json file is a list of dictionaries, each of which have two key
     ```
 
 - One can insert markdown image such as `![](./path/to/some/image.png)` though not yet tested.
+
+
+### Running locally
+
+To test, view the rendered page locally, get familiar with Ruby Gems, install `bundle` package using
+
+```bash
+gem install bundler jekyll # install gem as well via `brew install gem` if not installed
+
+cd this-repo # chdir to this repo folder
+
+bundle exec jekyll serve # => Now browse to http://localhost:4000 
+```
+
+The last command will serve a web page locally where you can see the pages.
