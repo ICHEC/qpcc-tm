@@ -1,6 +1,6 @@
 [
     {
-        "front": "Dirac Notation, What is the difference between a **bra** and a **ket** ?",
+        "front": "Dirac Notation: What is the difference between a **bra** and a **ket** ?",
         "back": "Both represent a quantum state, however they are defined in dual space. A ket $|\\Psi\\rangle$ is a **vector**, while a bra $\\langle\\Psi|$ is a **map**."
     },
     {
@@ -13,7 +13,7 @@
     },
     {
         "front": "How is an entangled state different than a generic superposition?",
-        "back": "The answer lies in the structure of the Hilbert space. Both are superpositions, however entangled state manifest when we combine two or more quantum systems. Discuss."
+        "back": "The answer lies in the structure of the Hilbert space. Both are superpositions, however entangled states manifest when we combine two or more quantum systems. Discuss."
     },
     {
         "front": "How important is quantum tunneling. Would we have quantum gates, if tunneling didn't exist?",
@@ -29,14 +29,14 @@
     },
     {
         "front": "What is the connection between the operators and observables?",
-        "back": "Discuss what does a quantum measurement do, and how is it mathematically interpreted."  
+        "back": "Discuss what does a quantum measurement do, and how it is mathematically interpreted."  
     },
     {
-        "front": "How do you combine the hilbert space created by multople qubits, how do the vectors change and how do the operators change?",
-        "back": "How does the bigger system looks like, and how it changes the scale of the problem."
+        "front": "How do you combine the Hilbert space created by multiple qubits? How do the vectors change and how do the operators change?",
+        "back": "Discuss how does the bigger system looks like, and how it changes the scale of the problem."
     },
     {
-        "front": "When we *add* qubits the Hilbert space becomes bigger, i.e., dimension grows as $2^n$ what are *storage* implications of this?",
+        "front": "When we *add* qubits the Hilbert space becomes bigger, i.e., dimension grows as $2^n$. What are *storage* implications of this?",
         "back": "A single qubit has as many states as points on unit sphere. Say, we descritized the points to 100, then the number of possible states scales as $100^n=10^{2n}$. Compare this to classical scaling of storage."
     },
     {
