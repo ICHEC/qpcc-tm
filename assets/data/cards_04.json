@@ -8,15 +8,15 @@
         "back": "Discuss the difference between the classical and quantum uncertainty."
     },
     {
-        "front": "Discuss the impact and relevance of **No-cloning** theorem.",
+        "front": "Discuss the impact and relevance of the **no-cloning** theorem.",
         "back": "Discuss."
     },
     {
-        "front": "How is an entangled state different than a generic superposition?",
+        "front": "How is an entangled state different from a generic superposition?",
         "back": "The answer lies in the structure of the Hilbert space. Both are superpositions, however entangled states manifest when we combine two or more quantum systems. Discuss."
     },
     {
-        "front": "How important is quantum tunneling. Would we have quantum gates, if tunneling didn't exist?",
+        "front": "How important is quantum tunneling? Would we have quantum gates if tunneling didn't exist?",
         "back": "Discuss."
     },
     {
@@ -37,10 +37,10 @@
     },
     {
         "front": "When we *add* qubits the Hilbert space becomes bigger, i.e., dimension grows as $2^n$. What are *storage* implications of this?",
-        "back": "A single qubit has as many states as points on unit sphere. Say, we descritized the points to 100, then the number of possible states scales as $100^n=10^{2n}$. Compare this to classical scaling of storage."
+        "back": "A single qubit has as many states as points on unit sphere. Say, we discretized the points to 100, then the number of possible states scales as $100^n=10^{2n}$. Compare this to classical scaling of storage."
     },
     {
-        "front": "What is the primary distinction between pure and mixed state? Why do we need mixed states?",
-        "back": "A pure state is an ideal quantum object represented by a vector/ket. A mixed state is a classical ensemble of quantum state and is expressed through density operator. We need mixed state when classical uncertainty is added to the problem."
+        "front": "What is the primary distinction between pure and mixed states? Why do we need mixed states?",
+        "back": "A pure state is an ideal quantum object represented by a vector/ket. A mixed state is a classical ensemble of quantum states and is expressed through a density operator. We need mixed states when classical uncertainty is added to the problem."
     }
 ]
