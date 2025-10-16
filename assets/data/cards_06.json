@@ -14,5 +14,17 @@
     {
         "front": "Discussion on temperature control and it's effects on qubit performance",
         "back": "The fidelity and coherence times of the qubit are greater at lower temperatures and that is why it's important to work on optimal temperature control for these qubits."
+    },
+    {
+        "front": "We Discussed two types of quantum computers: _i._ circuit based and _ii._ analog quantum simulations. What are their similarities and differences?",
+        "back": "Gate-based quantum computers implement discrete operations on the qubits by using gates, while analog quantum computers use the continuous time evolution of quantum systems. One is generic, while other is specialised."
+    },
+    {
+        "front": "Discuss the qubits architectures characteristics of gate based quantum computers.",
+        "back": "Ion traps and neutral atoms have good qubits lifes (~50 sec), but also have longer gate operations times. Photonic and superconducting qubits is the opposite, as they have shorter operation times but shorter qubit life as well. Topological qubits look very promising, but they haven’t been successfully implemented yet."
+    },
+    {
+        "front": "Discuss quantum annealers",
+        "back": "Particularly good for combinatorial problems. The mathematical formulation of the problem should be suitable to be mapped as a graph problem in the hardware architecture. The system evolves using adiabatic evolution to achieve the minimal solution."
     }
 ]
