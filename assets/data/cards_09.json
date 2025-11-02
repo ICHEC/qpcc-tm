@@ -9,9 +9,27 @@
     },
     {
         "front": "What does quantum parallelism allow us in the Deutsch algorithm?",
-        "back": "It allows us to simultaneously evaluate the two possible values of f"     
+        "back": "It allows us to simultaneously evaluate the two possible values of f."     
     },
-    {    "front:" "How many queries are needed to classically solve the Deutsch problem for a n-bit function?",
-        "back": "$2^{n-1}+1$ queries are needed in the worst case scenario"   }
+    {   "front": "How many queries are needed to classically solve the Deutsch problem for a n-bit function?",
+        "back": "$2^{n-1}+1$ queries are needed in the worst case scenario."
+    },
+    {   
+        "front": "Is the QFT an unitary transform?",
+        "back": "Yes, it is unitary."
+    },
+    {
+        "front": "What does the QFT do to a quantum state?",
+        "back": "It changes the basis from the computational basis to the frequency basis."
+    },
+    {
+        "front" : "What is required as an input for QPE?",
+        "back" : "A unitary opertor U and one of its eigenstates |u>."
+    },
+    {
+        "front" : "How does the number of qubits in the first register affects QPE behaviour?",
+        "back" : "More qubits imply higher precision in the phase estimate."
+    }
+
 ]
 
