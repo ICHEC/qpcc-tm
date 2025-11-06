@@ -11,7 +11,7 @@
         "front": "What does quantum parallelism allow us in the Deutsch algorithm?",
         "back": "It allows us to simultaneously evaluate the two possible values of f."     
     },
-    {   "front": "How many queries are needed to classically solve the Deutsch problem for a n-bit function?",
+    {   "front": "How many queries are needed to classically solve the Deutsch-Jozsa problem for a n-bit function?",
         "back": "$2^{n-1}+1$ queries are needed in the worst case scenario."
     },
     {   
