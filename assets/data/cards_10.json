@@ -1,7 +1,7 @@
 [
     {
         "front": "In Simon's algorithm, what property does the function, f, have?",
-        "back": "The function is 2-1 with f(x XOR c)=f(x) for every x."
+        "back": "The function is 2-1 (every output has two inputs which map to it) and f(x XOR c)=f(x) for every x."
     },
     {
         "front": "What is public key cryptography?",
@@ -9,11 +9,15 @@
     },
     {
         "front": "What is the assumption behind the RSA algorithm?",
-        "back": "RSA relies on the assumption that factoring numbers is difficult."
+        "back": "RSA relies on the assumption that factoring large numbers is difficult."
     },
     {
         "front": "How does Shor's algorithm for factoring numbers work?",
         "back": "The factoring problem is mapped onto the order finding problem, which can be solved efficiently using the QPE algorithm."
+    },
+    {
+        "front": "In Grover's algorithm what is the oracle?",
+        "back": "The oracle is a unitary gate which encodes the search function. It multiples target states by a minus sign and does nothing to non target states."
     },
     {
         "front": "Intuitively, how does Grover's algorithm work?",
