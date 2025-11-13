@@ -1,7 +1,7 @@
 [
     {
         "front": "Why is Simon's algorithm important?",
-        "back": "Although Simon's algorithm doesn't have a current practial use, it was the first quantum algorithm to demonstrate an exponential speed up over classical counterparts."
+        "back": "Although Simon's algorithm doesn't have a current practical use, it was the first quantum algorithm to demonstrate an exponential speed up over classical counterparts."
     },
     {
         "front": "In Simon's algorithm, what property does the function, f, have?",
