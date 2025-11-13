@@ -1,22 +1,30 @@
 [
     {
-        "front": "Can you think of a problem that has strong or exponential scaling?",
-        "back": "Discuss: problems where cost of compute, or memory scales up very quickly."
+        "front": "In Simon's algorithm, what property does the function, f, have?",
+        "back": "The function is 2-1 with f(x XOR c)=f(x) for every x."
     },
     {
-        "front": "Given current trends in quantum hardware improvements, when could we expect to be able to use Shor's algorithm in a practical manner?",
-        "back": "It's generally considered that 100 logical qubits are required for Shor's algorithm. Current trends suggest reaching this scale in the middle of next decade (2030s)?"
+        "front": "What is public key cryptography?",
+        "back": "In public key cryptography a message can be encrypted with a public key (available to anyone) and can only be decrypted with a private key (kept secret)."
+    },
+    {
+        "front": "What is the assumption behind the RSA algorithm?",
+        "back": "RSA relies on the assumption that factoring numbers is difficult."
+    },
+    {
+        "front": "How does Shor's algorithm for factoring numbers work?",
+        "back": "The factoring problem is mapped onto the order finding problem, which can be solved efficiently using the QPE algorithm."
+    },
+    {
+        "front": "Intuitively, how does Grover's algorithm work?",
+        "back": "On a 2D plane, where the x-axis (y-axis) is the equal superposition of non-solutions (solutions), Grover's algorithm rotates the state towards the solutions."
     },
     {
         "front": "How would the Grover's algorithm change if there were multiple solutions which are marked",
-        "back": "Open discussion."        
-    },
-    {
-        "front": "Are there any specific early quantum algorithms that you'll be interested in exploring further or finding their applications in more details?",
-        "back": "Open discussion."
+        "back": "The optimal number of rotations is proportional to the inverse square root of the number of solutions. Thus we would require less iterations of Grover's operator."        
     },
     {
         "front": "Why are we not using the early quantum algorithms in production today?",
-        "back": "Open discussion."
+        "back": "The early quantum algorithms have requirements beyond current hardware: a large number of qubits, long circuits and error correction."
     }
 ]
