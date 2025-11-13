@@ -1,5 +1,9 @@
 [
     {
+        "front": "Why is Simon's algorithm important?",
+        "back": "Although Simon's algorithm doesn't have a current practial use, it was the first quantum algorithm to demonstrate an exponential speed up over classical counterparts."
+    },
+    {
         "front": "In Simon's algorithm, what property does the function, f, have?",
         "back": "The function is 2-1 (every output has two inputs which map to it) and f(x XOR c)=f(x) for every x."
     },
