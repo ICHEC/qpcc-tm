@@ -1,0 +1,58 @@
+[
+  {
+    "front": "What is Moore's law and how is it relevant to quantum computing?",
+    "back": "Moore's law states that the number of transistors on a microprocessor doubles approximately every two years. As transistors are made smaller, their behaviour is increasingly governed by quantum physics."
+  },
+  {
+    "front": "What progression of computing technologies leads from first-generation computers to quantum processors?",
+    "back": "The progression presented is vacuum tubes, transistors, integrated circuits, microprocessors, and then quantum processors as a proposed fifth generation of computing."
+  },
+  {
+    "front": "How does quantum computing fit alongside classical high-performance computing systems and applications?",
+    "back": "Quantum computing is expected to act as an accelerator for specific parts of an application, leading to hybrid HPC–quantum computing systems and workflows rather than replacing classical computing entirely."
+  },
+  {
+    "front": "What sectors and computational problems does classical high-performance computing enable?",
+    "back": "Classical HPC supports areas including materials science, engineering and manufacturing, molecular modelling, life sciences, financial technology, data analytics, machine learning, optimisation, logistics, and modelling and simulation in the fundamental sciences."
+  },
+  {
+    "front": "What types of problems could quantum computing solve better than classical high-performance computing?",
+    "back": "Quantum computing may be advantageous for simulations of quantum-mechanical systems, classically intractable search and optimisation, and some complex multivariate data-analysis problems. Potential benefits include improved accuracy, precision, or time to solution."
+  },
+  {
+    "front": "How can an organisation define its role and value in quantum computing?",
+    "back": "Potential roles include applying quantum computing as an end user, co-developing hardware, software, algorithms or applications, providing skills and training, and contributing to ecosystem leadership."
+  },
+  {
+    "front": "What are key milestones for quantum computing to become more reliable and scalable?",
+    "back": "Important milestones include more reliable qubits and gates, better precision in controlling quantum systems, improved integration with classical HPC, and higher-level quantum software that works with classical tools."
+  },
+  {
+    "front": "Why should classical and quantum computing systems be integrated?",
+    "back": "Most applications contain many steps that are best handled classically and only selected steps that may benefit from quantum acceleration. Integration allows each type of processor to perform the work to which it is best suited."
+  },
+  {
+    "front": "What are the main stages of a hybrid quantum-computation workflow?",
+    "back": "A hybrid workflow includes classical preprocessing, encoding or state preparation, execution of a quantum circuit, measurement, and classical post-processing of the results."
+  },
+  {
+    "front": "How is a quantum processing unit different from classical accelerators such as GPUs and FPGAs?",
+    "back": "A quantum workflow requires distinct stages for encoding information into quantum states, executing quantum operations, measuring the quantum state, and classically post-processing the measurement results."
+  },
+  {
+    "front": "What are the potential benefits of using quantum computing within a hybrid HPC–quantum computing framework?",
+    "back": "A hybrid framework allows quantum processors to accelerate suitable computational steps while classical processors and established software handle the rest of the application and workflow."
+  },
+  {
+    "front": "What are the main modes for integrating high-performance computing and quantum computing?",
+    "back": "The lecture distinguishes emulated quantum systems, standalone or remotely accessed quantum hardware, federated HPC and quantum systems, and quantum systems co-located with HPC infrastructure."
+  },
+  {
+    "front": "Why are software-based quantum simulators useful when real quantum devices are available?",
+    "back": "Simulators provide accessible environments for learning, development, testing, and evaluation. They can model systems with or without noise before work is moved to limited and error-prone quantum hardware."
+  },
+  {
+    "front": "What is the benefit of co-locating a quantum computer with an HPC system?",
+    "back": "Co-location can provide tighter coupling and lower latency between classical and quantum application components while using the platform services and software infrastructure of an existing HPC centre."
+  }
+]
