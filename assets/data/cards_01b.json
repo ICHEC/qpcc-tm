@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is a classical bit and how many states can n bits represent?",
+    "back": "A classical bit has two possible states, conventionally written as 0 and 1. A collection of n bits can represent 2^n distinct states."
+  },
+  {
+    "front": "How can physical systems represent classical binary digits?",
+    "back": "Two distinguishable physical states can encode 0 and 1, such as an off or on switch, two voltage levels, or different states recorded on storage media."
+  },
+  {
+    "front": "How does binary representation differ from decimal representation?",
+    "back": "Decimal is base 10 and uses digits 0 through 9. Binary is base 2 and uses only 0 and 1, with each position representing a power of two."
+  },
+  {
+    "front": "What two outputs are needed when adding two binary digits?",
+    "back": "Binary addition produces a sum bit and a carry bit. These two outputs form the basis of a classical half-adder."
+  },
+  {
+    "front": "What does a classical NOT gate do?",
+    "back": "A NOT gate flips a single bit: it maps 0 to 1 and 1 to 0. This operation is reversible."
+  },
+  {
+    "front": "What does a classical AND gate do?",
+    "back": "An AND gate outputs 1 only when both input bits are 1; otherwise it outputs 0. In a half-adder, AND produces the carry bit."
+  },
+  {
+    "front": "What does a classical XOR gate do?",
+    "back": "An XOR gate outputs 1 when its two input bits differ and 0 when they are the same. In a half-adder, XOR produces the sum bit."
+  },
+  {
+    "front": "How does a classical half-adder work?",
+    "back": "A half-adder combines an XOR gate for the sum and an AND gate for the carry, implementing the basic addition of two input bits."
+  },
+  {
+    "front": "What is a universal classical gate set?",
+    "back": "A universal classical gate set can be combined to implement any classical logical operation. NOT, AND and OR form one universal set, while NAND alone is also universal."
+  },
+  {
+    "front": "How does reversibility differ between classical and quantum gates?",
+    "back": "Classical gates can be irreversible, whereas quantum gates must be reversible. For example, the classical NOT gate is reversible, while classical AND and XOR gates with two inputs and one output are irreversible."
+  }
+]
