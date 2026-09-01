@@ -1,46 +1,41 @@
 [
-    {
-        "front": "Dirac Notation: What is the difference between a **bra** and a **ket** ?",
-        "back": "Both represent a quantum state, however they are defined in dual space. A ket $|\\Psi\\rangle$ is a **vector**, while a bra $\\langle\\Psi|$ is a **map**."
-    },
-    {
-        "front": "What is the similarity and difference between uncertainty in the uncertainty principle, and classical uncertainty?",
-        "back": "Discuss the difference between the classical and quantum uncertainty."
-    },
-    {
-        "front": "Discuss the impact and relevance of the **no-cloning** theorem.",
-        "back": "Discuss."
-    },
-    {
-        "front": "How is an entangled state different from a generic superposition?",
-        "back": "The answer lies in the structure of the Hilbert space. Both are superpositions, however entangled states manifest when we combine two or more quantum systems. Discuss."
-    },
-    {
-        "front": "How important is quantum tunneling? Would we have quantum gates if tunneling didn't exist?",
-        "back": "Discuss."
-    },
-    {
-        "front": "Why do we need normalized vectors for a quantum state. Can't we work with a vectors of arbitrary magnitude?",
-        "back": "The state $|s\\rangle = c_1|1\\rangle + c_2|2\\rangle + ... c_n|n\\rangle$ has probability $|c_i|^2$ which should sum up to 1."
-    },
-    {
-        "front": "What is the mathematical implication of the measurement of the quantum state, what happens to the vector when measured in a basis?",
-        "back": "Discuss"
-    },
-    {
-        "front": "What is the connection between the operators and observables?",
-        "back": "Discuss what does a quantum measurement do, and how it is mathematically interpreted."  
-    },
-    {
-        "front": "How do you combine the Hilbert space created by multiple qubits? How do the vectors change and how do the operators change?",
-        "back": "Discuss how does the bigger system looks like, and how it changes the scale of the problem."
-    },
-    {
-        "front": "When we *add* qubits the Hilbert space becomes bigger, i.e., dimension grows as $2^n$. What are *storage* implications of this?",
-        "back": "A single qubit has as many states as points on unit sphere. Say, we discretized the points to 100, then the number of possible states scales as $100^n=10^{2n}$. Compare this to classical scaling of storage."
-    },
-    {
-        "front": "What is the primary distinction between pure and mixed states? Why do we need mixed states?",
-        "back": "A pure state is an ideal quantum object represented by a vector/ket. A mixed state is a classical ensemble of quantum states and is expressed through a density operator. We need mixed states when classical uncertainty is added to the problem."
-    }
+{
+    "front": "What are the three properties of qubits that give quantum algorithms their power over classical ones?",
+    "back": "Superposition, entanglement, and interference."
+},
+{
+    "front": "How do classical and quantum gates differ?",
+    "back": "Classical gates implement boolean logic functions, and can be irreversible. Quantum gates implement linear transformations, and must be reversible."
+},
+{
+    "front": "What does big O indicate in computational complexity theory?",
+    "back": "It indicates the limit behaviour of a function."
+},
+{
+    "front": "In a quantum circuit diagram, what do wires and gates represent, and in which direction is the circuit read?",
+    "back": "Wires represent qubits and gates represent operations on them. Circuits are read left to right, with gates on the left applied first."
+},
+{
+    "front": "Is measurement in a quantum circuit a unitary operation?",
+    "back": "No. Although it is drawn as a gate, measurement is not unitary, it is probabilistic and irreversible."
+},
+{
+    "front": "Does the quantum version of the half adder circuit offer any quantum speedup over the classical version?",
+    "back": "No. It just embeds classical logic reversibly into unitary gates (a Toffoli gate for the carry, a CNOT gate for the sum), using no superposition or interference, and needs an extra ancilla qubit with no efficiency gain."
+},
+{
+    "front": "What does quantum parallelism allow us in the Deutsch algorithm?",
+    "back": "It allows us to simultaneously evaluate the two possible values of a function f."
+},
+{   "front": "How many queries are needed to classically solve the Deutsch-Jozsa problem for a n-bit function?",
+    "back": "$2^{n-1}+1$ queries are needed in the worst case scenario."
+},
+{
+    "front": "Are all quantum programs executed on a quantum computer?",
+    "back": "Not necessarily. Some quantum programs can be simulated in a quantum simulator run on classical hardware."
+},
+{
+    "front": "What is a statevector simulator, and why does it become extremely expensive for large numbers of qubits?",
+    "back": "It represents the full quantum state as a single complex vector of length $2^n$. Since the number of amplitudes grows exponentially with the number of qubits, simulating more than about 40 qubits requires supercomputer-scale distributed memory."
+}
 ]
