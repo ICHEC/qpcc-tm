@@ -113,7 +113,7 @@ The last command will serve a web page locally where you can see the pages.
 
 ### Adding exercises
 
-Add CT-4100 Jupyter notebooks to the `exercises/` directory. The homepage lists
+Add CT4110 Jupyter notebooks to the `exercises/` directory. The homepage lists
 each notebook automatically and provides links to view the rendered HTML or
 download the original `.ipynb` file.
 

@@ -33,7 +33,7 @@ layout: default
     gap: 12px;
     margin-top: 15px;
   }
-  #exercises-for-ct-4100 {
+  #exercises {
     margin-top: 4rem;
     scroll-margin-top: 1.5rem;
   }
@@ -97,7 +97,7 @@ layout: default
 </style>
 
 <div class="section-shortcuts">
-  <a class="section-shortcut" href="#exercises-for-ct-4100">Go to Exercises ↓</a>
+  <a class="section-shortcut" href="#exercises">Go to Exercises ↓</a>
 </div>
 
 ### About Flashcards
@@ -117,7 +117,7 @@ We will display the card front, and first seek response and thoughts from the co
 
 
 
-## Exercises for CT-4110
+<h2 id="exercises">Exercises for CT4110</h2>
 
 The exercises are available to view in your browser or download as Jupyter notebooks.
 
