@@ -120,11 +120,11 @@ download the original `.ipynb` file.
 To render the notebooks before testing the site locally, run:
 
 ```bash
-mkdir -p rendered-exercises
-jupyter nbconvert --to html --output-dir rendered-exercises exercises/*.ipynb
+python scripts/render_notebooks.py
 bundle exec jekyll serve
 ```
 
 The deployment workflow performs the conversion automatically. It does not
 execute notebook cells, so save notebooks with their outputs when those outputs
-should be visible on the published exercise page.
+should be visible on the published exercise page. Every rendered exercise also
+includes a link at the top for downloading its original `.ipynb` file.
