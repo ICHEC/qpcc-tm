@@ -1,4 +1,4 @@
-# CT-4100 exercises
+# CT4110 exercises
 
 Place the course's Jupyter notebooks in this directory and commit them to the
 repository. Use descriptive filenames such as `exercise-01-introduction.ipynb`.
