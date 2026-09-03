@@ -1,9 +1,5 @@
 [
   {
-    "front": "What is Moore's law and how is it relevant to quantum computing?",
-    "back": "Moore's law states that the number of transistors on a microprocessor doubles approximately every two years. As transistors are made smaller, their behaviour is increasingly governed by quantum physics."
-  },
-  {
     "front": "What progression of computing technologies leads from first-generation computers to quantum processors?",
     "back": "The progression presented is vacuum tubes, transistors, integrated circuits, microprocessors, and then quantum processors as a proposed fifth generation of computing."
   },
