@@ -110,3 +110,21 @@ bundle exec jekyll serve # => Now browse to http://localhost:4000
 ```
 
 The last command will serve a web page locally where you can see the pages.
+
+### Adding exercises
+
+Add CT-4100 Jupyter notebooks to the `exercises/` directory. The homepage lists
+each notebook automatically and provides links to view the rendered HTML or
+download the original `.ipynb` file.
+
+To render the notebooks before testing the site locally, run:
+
+```bash
+mkdir -p rendered-exercises
+jupyter nbconvert --to html --output-dir rendered-exercises exercises/*.ipynb
+bundle exec jekyll serve
+```
+
+The deployment workflow performs the conversion automatically. It does not
+execute notebook cells, so save notebooks with their outputs when those outputs
+should be visible on the published exercise page.
