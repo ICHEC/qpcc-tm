@@ -102,7 +102,7 @@ layout: default
 
 ### About Flashcards
 
-This is the landing page for the flashcards used as part of the teaching material in the course CT4100. The flashcards shown here consists of `front and back` pairs, or alternatively `questions and answer` pairs, and are used to facilitate and encourage interaction with the cohorts about lecture specific topics.
+This is the landing page for the flashcards used as part of the teaching material in the course CT4110. The flashcards shown here consists of `front and back` pairs, or alternatively `questions and answer` pairs, and are used to facilitate and encourage interaction with the cohorts about lecture specific topics.
 
 We will display the card front, and first seek response and thoughts from the cohorts, then we reveal the back side. Remember that the answers themselve aren't that important, as is the discussion and the process of interaction. So please do not try to `learn` the answer beforehand! 😃
 
@@ -114,7 +114,7 @@ We will display the card front, and first seek response and thoughts from the co
   {% endfor %}
 </div>
 
-## Exercises for CT-4100
+## Exercises for CT-4110
 
 The exercises are available to view in your browser or download as Jupyter notebooks.
 
