@@ -36,7 +36,7 @@
     "back": "A universal classical gate set can be combined to implement any classical logical operation. NOT, AND and OR form one universal set, while NAND alone is also universal."
   },
   {
-    "front": "How does reversibility differ between classical and quantum gates?",
-    "back": "Classical gates can be irreversible, whereas quantum gates must be reversible. For example, the classical NOT gate is reversible, while classical AND and XOR gates with two inputs and one output are irreversible."
+    "front": "What is reversibility in the context of classical gates?",
+    "back": "A reversible gate is one where we can determine the inputs from the outputs. Classical gates can be reversible or irreversible. For example, the classical NOT gate is reversible, while classical AND and XOR gates with two inputs and one output are irreversible."
   }
 ]
