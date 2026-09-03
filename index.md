@@ -114,6 +114,9 @@ We will display the card front, and first seek response and thoughts from the co
   {% endfor %}
 </div>
 
+
+
+
 ## Exercises for CT-4110
 
 The exercises are available to view in your browser or download as Jupyter notebooks.
