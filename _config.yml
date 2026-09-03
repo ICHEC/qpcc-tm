@@ -1,9 +1,9 @@
 # Configurations
-title:            CT4100 Flashcards and Exercises
-longtitle:        CT4100 flashcards and exercises
+title:            CT4110 Flashcards and Exercises
+longtitle:        CT4110 flashcards and exercises
 author:           ICHEC Quantum Team
 email:            qpcc@ichec.ie
-description: Flashcards and exercises for CT4100
+description: Flashcards and exercises for CT4110
 
 url:              'https://ichec.github.io'
 baseurl:          '/qpcc-tm'
