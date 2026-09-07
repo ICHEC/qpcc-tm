@@ -1,34 +1,34 @@
 [
-    {
-        "front": "What is a set? Are these sets equivalent: {1,2,3} and {3,2,1}?",
-        "back": "A set is a collection of distinct elements. Yes, these sets are equivalent because the order of elements in a set does not matter."
+        {
+        "front": "How do we describe a system of multiple qubits? How do we write the state vectors and gates?",
+        "back": "We use the tensor product to combine the state vectors and gates of individual qubits."
     },
     {
-        "front": "Discuss your understanding of the mapping of the state of a qubit to a point on a unit sphere",
-        "back": "The state of a qubit can be written in terms of two angles, θ and φ, which correspond to spherical coordinates on a unit sphere. The north and south poles represent the basis states |0⟩ and |1⟩, respectively, while any other point on the sphere represents a superposition of these states."
+        "front": "What is the dimension of the state vector and the gate matrices for a system of 2 qubits? What about for an n-qubit system?",
+        "back": "For a 2-qubit system, the state vector is a 4-dimensional vector, and gates are represented by 4x4 matrices. For n qubits, the state vector is 2^n-dimensional, and gates are represented by 2^n x 2^n matrices."
     },
     {
-        "front": "What is the meaning of multiplication of vectors? ",
-        "back": "Vectors can be multiplied together in two main ways: the inner product (which results in a scalar) and the outer product (which results in a matrix). We can also multiply vectors by scalars to scale their magnitude. This results in a new vector that points in the same or opposite direction, depending on the sign of the scalar."
+        "front": "Explain the action of the CNOT gate"
+        "back": "CNOT is a controlled operation which conditionally flips the state of the second qubit depending on the state of the first qubit. It therefore creates entanglement between the two qubits."
+    },
+        {
+        "front": "What is a universal gate set in quantum computing?",
+        "back": "A universal gate set is a collection of quantum gates that can be combined to approximate any quantum operation to arbitrary precision. An example is the set {H, S, T, CNOT}."    
     },
     {
-        "front": "What does linear dependence and independence of vectors imply? ",
-        "back": "Linear independence means that no vector in the set can be expressed as a linear combination of the others. If they are linearly dependent, at least one vector can be written as such a combination."
+        "front": "What is the difference between superposition and entanglement?",
+        "back": "Superposition is where a single quantum system can exist in multiple states 'simultaneously'. Entanglement is where multiple quantum systems become correlated such that the state of one system cannot be described independently of the state of the others."
     },
     {
-        "front": "What is a basis? What is its significance in a vector space? Can it contain an arbitrary number of vectors?",
-        "back": "A basis is a set of linearly independent vectors that span a vector space. It is significant because any vector in the space can be uniquely expressed as a linear combination of the basis vectors. The number of vectors in a basis is equal to the dimension of the vector space, so it cannot contain an arbitrary number of vectors."
+        "front": "What is the difference between quantum and classical uncertainty?"
+        "back": "Classical uncertainty can come from errors in imperfect measurement devices. Quantum uncertainty is inherent in the system itself, it cannot be eliminated even when measured perfectly."
     },
     {
-        "front": "Explain the matrix representation of a linear map.",
-        "back": "Any linear map from one vector space, A, to another, B, can be represented by a matrix. The columns of the matrix correspond to the images of the basis vectors of A under the map. The action of the linear map on a vector is equivalent to multiplying the matrix by the vector."
+        "front": "What are the implications of no-cloning theorem on practical quantum computing?",
+        "back": "It makes the tackling of errors and noise even more challenging due to the lack of a straightforward way to add redundancy to quantum information."
     },
     {
-        "front": "Is any vector space a Hilbert space? ",
-        "back": "No, a Hilbert space is a specific type of vector space that is complete and has an inner product which defines the notion of distance. Not all vector spaces have these properties."
-    },
-    {
-        "front": "Explain what is meant by an orthonormal basis.",
-        "back": "An orthonormal basis is a set of basis vectors that are both orthogonal (perpendicular to each other) and normalized (each vector has a length of one). This means that the inner product of any two different basis vectors is zero, and the inner product of a basis vector with itself is one."
+        "front": "Discuss the connection between superposition and quantum measurement",
+        "back": "A quantum system can exist in a superposition of states. When a measurement is made, the superposition collapses to one of the possible states, with the outcome being probabilistic based on the amplitudes of the superposed states."
     }
 ]
