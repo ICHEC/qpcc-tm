@@ -137,7 +137,6 @@ The exercises are available to view in your browser or download as Jupyter noteb
         <span class="exercise-title">{{ exercise_name }}</span>
         <span class="exercise-actions">
           <a class="exercise-button primary" href="{{ rendered_path | relative_url }}">View</a>
-          <a class="exercise-button" href="{{ notebook.path | relative_url }}" download>Download</a>
         </span>
       </div>
     {% endif %}
