@@ -11,6 +11,7 @@ from nbconvert import HTMLExporter
 
 SOURCE_DIR = Path("exercises")
 OUTPUT_DIR = Path("rendered-exercises")
+DOWNLOAD_BAR_EXCLUSIONS = {"CT_4110_Exercise_2.ipynb"}
 
 
 def download_bar(filename: str) -> str:
@@ -47,12 +48,13 @@ def render_notebook(notebook_path: Path, exporter: HTMLExporter) -> None:
     notebook = nbformat.read(notebook_path, as_version=4)
     html, _ = exporter.from_notebook_node(notebook)
 
-    body_start = html.find("<body")
-    body_end = html.find(">", body_start)
-    if body_start == -1 or body_end == -1:
-        raise ValueError(f"Could not find the HTML body in {notebook_path}")
+    if notebook_path.name not in DOWNLOAD_BAR_EXCLUSIONS:
+        body_start = html.find("<body")
+        body_end = html.find(">", body_start)
+        if body_start == -1 or body_end == -1:
+            raise ValueError(f"Could not find the HTML body in {notebook_path}")
 
-    html = html[: body_end + 1] + download_bar(notebook_path.name) + html[body_end + 1 :]
+        html = html[: body_end + 1] + download_bar(notebook_path.name) + html[body_end + 1 :]
     output_path = OUTPUT_DIR / f"{notebook_path.stem}.html"
     output_path.write_text(html, encoding="utf-8")
     print(f"Rendered {notebook_path} -> {output_path}")
