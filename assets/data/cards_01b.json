@@ -1,7 +1,7 @@
 [
   {
     "front": "What is a classical bit and how many states can n bits represent?",
-    "back": "A classical bit has two possible states, conventionally written as 0 and 1. A collection of n bits can represent 2^n distinct states."
+    "back": "A classical bit has two possible states, conventionally written as 0 and 1. A collection of $n$ bits can represent $2^n$ distinct states."
   },
   {
     "front": "How can physical systems represent classical binary digits?",
