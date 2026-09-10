@@ -5,26 +5,22 @@
     },
     {
         "front": "Discuss the similarities in the features of classical and quantum computing",
-        "back": "Both require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases. Both have universal gate sets."  
+        "back": "Both require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases. Both have universal gate sets."
     },
     {
         "front": "Discuss the differences in the features of classical and quantum computing",
         "back": "Classical gates can be irreversible, quantum gates cannot. Classical bits can be copied, qubits cannot. Qubits exhibit superposition/entanglement, classical bits do not. Quantum measurements are probabilistic whereas classical measurements are deterministic."
     },
     {
-        "front": "What are the implications of no-cloning theorem on practical quantum computing?",
-        "back": "It makes the tackling of errors and noise even more challenging due to the lack of a straightforward way to add redundancy to quantum information."
+        "front": "Why are complex numbers needed to describe quantum states?",
+        "back": "Real coefficients can represent probability magnitudes but cannot fully distinguish states associated with different spatial directions. Complex probability amplitudes contain both magnitude and relative phase. The magnitude squared determines the probability of an outcome, while the relative phase distinguishes states and controls quantum interference."
     },
     {
-        "front": "What is a universal gate set in quantum computing?",
-        "back": "A universal gate set is a collection of quantum gates that can be combined to approximate any quantum operation to arbitrary precision. An example is the set {H, S, T, CNOT}."    
+        "front": "What is the difference between Hermitian and unitary operators in quantum computing?",
+        "back": "Hermitian operators represent measurable observables. They satisfy H† = H and have real eigenvalues corresponding to possible measurement outcomes. Unitary operators represent quantum gates. They satisfy U†U = I, preserve the normalization of quantum states, and describe reversible operations."
     },
     {
         "front": "Discuss the connection between superposition and quantum measurement",
         "back": "A quantum system can exist in a superposition of states. When a measurement is made, the superposition collapses to one of the possible states, with the outcome being probabilistic based on the amplitudes of the superposed states."
-    },
-    {
-        "front": "What is the difference between superposition and entanglement?",
-        "back": "Superposition is where a single quantum system can exist in multiple states 'simultaneously'. Entanglement is where multiple quantum systems become correlated such that the state of one system cannot be described independently of the state of the others."
     }
 ]
