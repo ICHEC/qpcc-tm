@@ -5,7 +5,7 @@
     },
     {
         "front": "Discuss the similarities in the features of classical and quantum computing",
-        "back": "Both require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases. Both have universal gate sets."
+        "back": "Both require the existence of independent states like the 0 and 1 state. Gates are used to manipulate the information in both cases."
     },
     {
         "front": "Discuss the differences in the features of classical and quantum computing",
