@@ -1,5 +1,5 @@
 ---
 layout: cards-template
-title: 3. Mathematical Framework for Quantum Computing I
+title: "Lecture 3 - Connecting Qubits Together"
 jsonfile: /assets/data/cards_03.json
 ---

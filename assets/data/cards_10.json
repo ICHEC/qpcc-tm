@@ -20,18 +20,6 @@
         "back": "The factoring problem is mapped onto the order finding problem, which can be solved efficiently using the QPE algorithm."
     },
     {
-        "front": "In Grover's algorithm what is the oracle?",
-        "back": "The oracle is a unitary gate which encodes the search function. It multiples target states by a minus sign and does nothing to non target states."
-    },
-    {
-        "front": "Intuitively, how does Grover's algorithm work?",
-        "back": "On a 2D plane, where the x-axis (y-axis) is the equal superposition of non-solutions (solutions), Grover's algorithm rotates the state towards the solutions."
-    },
-    {
-        "front": "How would the Grover's algorithm change if there were multiple solutions which are marked",
-        "back": "The optimal number of rotations is proportional to the inverse square root of the number of solutions. Thus we would require less iterations of Grover's operator."        
-    },
-    {
         "front": "Why are we not using the early quantum algorithms in production today?",
         "back": "The early quantum algorithms have requirements beyond current hardware: a large number of qubits, long circuits and error correction."
     }

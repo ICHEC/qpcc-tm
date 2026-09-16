@@ -1,5 +1,5 @@
 ---
 layout: cards-template
-title: 9. Early Quantum Algorithms I
+title: "Lecture 6 - Early Quantum Algorithms I: QFT & QPE"
 jsonfile: /assets/data/cards_09.json
 ---

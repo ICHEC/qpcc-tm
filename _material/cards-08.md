@@ -1,5 +1,6 @@
 ---
 layout: cards-template
-title: 8. Accessing and Programming Quantum Computing Systems
+title: Accessing and Programming Quantum Computing Systems
+supplemental: true
 jsonfile: /assets/data/cards_08.json
 ---
