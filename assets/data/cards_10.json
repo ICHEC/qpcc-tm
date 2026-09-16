@@ -1,26 +1,10 @@
 [
     {
-        "front": "Why is Simon's algorithm important?",
-        "back": "Although Simon's algorithm doesn't have a current practical use, it was the first quantum algorithm to demonstrate an exponential speed up over classical counterparts."
+        "front": "Front",
+        "back": "Back"    
     },
     {
-        "front": "In Simon's algorithm, what property does the function, f, have?",
-        "back": "The function is 2-1 (every output has two inputs which map to it) and f(x XOR c)=f(x) for every x."
-    },
-    {
-        "front": "What is public key cryptography?",
-        "back": "In public key cryptography a message can be encrypted with a public key (available to anyone) and can only be decrypted with a private key (kept secret)."
-    },
-    {
-        "front": "What is the assumption behind the RSA algorithm?",
-        "back": "RSA relies on the assumption that factoring large numbers is difficult."
-    },
-    {
-        "front": "How does Shor's algorithm for factoring numbers work?",
-        "back": "The factoring problem is mapped onto the order finding problem, which can be solved efficiently using the QPE algorithm."
-    },
-    {
-        "front": "Why are we not using the early quantum algorithms in production today?",
-        "back": "The early quantum algorithms have requirements beyond current hardware: a large number of qubits, long circuits and error correction."
+        "front": "Front",
+        "back": "Back"
     }
 ]

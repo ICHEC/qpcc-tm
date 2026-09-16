@@ -1,5 +1,5 @@
 ---
 layout: cards-template
-title: "Lecture 6 - Early Quantum Algorithms I: QFT & QPE"
+title: NISQ Quantum Algorithms
 jsonfile: /assets/data/cards_09.json
 ---
