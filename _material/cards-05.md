@@ -1,6 +1,5 @@
 ---
 layout: cards-template
-title: Introduction to Quantum Information
-supplemental: true
+title: "Lecture 5 - Hardware and Physics of Quantum Computer"
 jsonfile: /assets/data/cards_05.json
 ---

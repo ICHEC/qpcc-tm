@@ -1,6 +1,5 @@
 ---
 layout: cards-template
-title: Accessing and Programming Quantum Computing Systems
-supplemental: true
-jsonfile: /assets/data/cards_08.json
+title: "Lecture 8 - Early Quantum Algorithms III: Grover’s Algorithm & Quantum Random Walks"
+jsonfile: /assets/data/cards_08_algorithms.json
 ---

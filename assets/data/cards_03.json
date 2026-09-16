@@ -27,8 +27,4 @@
         "front": "What are the implications of no-cloning theorem on practical quantum computing?",
         "back": "It makes the tackling of errors and noise even more challenging due to the lack of a straightforward way to add redundancy to quantum information."
     },
-    {
-        "front": "Discuss the connection between superposition and quantum measurement",
-        "back": "A quantum system can exist in a superposition of states. When a measurement is made, the superposition collapses to one of the possible states, with the outcome being probabilistic based on the amplitudes of the superposed states."
-    }
 ]
