@@ -1,6 +1,6 @@
 [
         {
-        "front": "How do we describe a system of multiple qubits? How do we write the state vectors and gates?",
+        "front": "How do we mathematically describe a multiple qubits system?",
         "back": "We use the tensor product to combine the state vectors and gates of individual qubits."
     },
     {
@@ -9,7 +9,7 @@
     },
     {
         "front": "Explain the action of the CNOT gate",
-        "back": "CNOT is a controlled operation which conditionally flips the state of the second qubit depending on the state of the first qubit. It therefore creates entanglement between the two qubits."
+        "back": "CNOT is a controlled operation which conditionally flips the state of the second qubit depending on the state of the first qubit."
     },
         {
         "front": "What is a universal gate set in quantum computing?",
