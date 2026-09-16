@@ -26,5 +26,5 @@
     {
         "front": "What are the implications of no-cloning theorem on practical quantum computing?",
         "back": "It makes the tackling of errors and noise even more challenging due to the lack of a straightforward way to add redundancy to quantum information."
-    },
+    }
 ]
