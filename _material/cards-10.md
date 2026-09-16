@@ -1,5 +1,5 @@
 ---
 layout: cards-template
-title: 10. Early Quantum Algorithms II
+title: "Lecture 7 - Early Quantum Algorithms II: Shor’s Algorithm & Cryptography"
 jsonfile: /assets/data/cards_10.json
 ---

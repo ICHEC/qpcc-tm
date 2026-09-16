@@ -1,5 +1,5 @@
 ---
 layout: cards-template
-title: 6. Realising Quantum Computing Systems
+title: "Lecture 5 - Hardware and Physics of Quantum Computer"
 jsonfile: /assets/data/cards_06.json
 ---

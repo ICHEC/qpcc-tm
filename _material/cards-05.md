@@ -1,5 +1,6 @@
 ---
 layout: cards-template
-title: 5. Guest Lecute. Introduction to Quantum Information
+title: Introduction to Quantum Information
+supplemental: true
 jsonfile: /assets/data/cards_05.json
 ---

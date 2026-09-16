@@ -1,5 +1,6 @@
 ---
 layout: cards-template
-title: 7. Guest Lecture. Building a Quantum Computer
+title: Building a Quantum Computer
+supplemental: true
 jsonfile: /assets/data/cards_07.json
 ---

@@ -1,5 +1,6 @@
 ---
 layout: cards-template
-title: 11. NISQ Quantum Algorithms
+title: NISQ Quantum Algorithms
+supplemental: true
 jsonfile: /assets/data/cards_11.json
 ---
