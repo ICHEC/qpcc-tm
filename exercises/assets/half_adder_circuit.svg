@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">Quantum half-adder circuit</title>
+  <desc id="desc">Four qubits labelled A, B, SUM and CARRY. X gates prepare A and B as one. Two controlled-X gates calculate SUM and a Toffoli gate calculates CARRY. Only SUM and CARRY are measured.</desc>
+  <rect width="980" height="360" fill="#ffffff"/>
+  <style>
+    .wire{stroke:#233044;stroke-width:3}.gate{fill:#e8f1ff;stroke:#2463a7;stroke-width:3}.measure{fill:#eef9ef;stroke:#2f7d3e;stroke-width:3}.label{font:20px sans-serif;fill:#172033}.small{font:17px sans-serif;fill:#354157}.gateText{font:bold 22px sans-serif;fill:#174f8a}.control{fill:#2463a7}.target{fill:#fff;stroke:#2463a7;stroke-width:3}.dash{stroke:#8090a6;stroke-width:2;stroke-dasharray:7 6}
+  </style>
+  <text x="30" y="58" class="label">q0: A</text>
+  <text x="30" y="128" class="label">q1: B</text>
+  <text x="30" y="198" class="label">q2: SUM</text>
+  <text x="30" y="268" class="label">q3: CARRY</text>
+  <line x1="130" y1="52" x2="930" y2="52" class="wire"/>
+  <line x1="130" y1="122" x2="930" y2="122" class="wire"/>
+  <line x1="130" y1="192" x2="930" y2="192" class="wire"/>
+  <line x1="130" y1="262" x2="930" y2="262" class="wire"/>
+
+  <rect x="170" y="27" width="50" height="50" rx="5" class="gate"/><text x="187" y="60" class="gateText">X</text>
+  <rect x="170" y="97" width="50" height="50" rx="5" class="gate"/><text x="187" y="130" class="gateText">X</text>
+  <text x="155" y="18" class="small">Prepare A=B=1</text>
+
+  <circle cx="345" cy="52" r="8" class="control"/><line x1="345" y1="52" x2="345" y2="192" class="wire"/>
+  <circle cx="345" cy="192" r="18" class="target"/><line x1="327" y1="192" x2="363" y2="192" class="wire"/><line x1="345" y1="174" x2="345" y2="210" class="wire"/>
+  <text x="294" y="232" class="small">CX A→SUM</text>
+
+  <circle cx="500" cy="122" r="8" class="control"/><line x1="500" y1="122" x2="500" y2="192" class="wire"/>
+  <circle cx="500" cy="192" r="18" class="target"/><line x1="482" y1="192" x2="518" y2="192" class="wire"/><line x1="500" y1="174" x2="500" y2="210" class="wire"/>
+  <text x="447" y="232" class="small">CX B→SUM</text>
+
+  <circle cx="655" cy="52" r="8" class="control"/><circle cx="655" cy="122" r="8" class="control"/>
+  <line x1="655" y1="52" x2="655" y2="262" class="wire"/>
+  <circle cx="655" cy="262" r="18" class="target"/><line x1="637" y1="262" x2="673" y2="262" class="wire"/><line x1="655" y1="244" x2="655" y2="280" class="wire"/>
+  <text x="600" y="310" class="small">CCX A,B→CARRY</text>
+
+  <rect x="795" y="167" width="72" height="50" rx="8" class="measure"/><text x="807" y="198" class="small">Measure</text>
+  <rect x="795" y="237" width="72" height="50" rx="8" class="measure"/><text x="807" y="268" class="small">Measure</text>
+  <line x1="867" y1="192" x2="930" y2="192" class="dash"/><line x1="867" y1="262" x2="930" y2="262" class="dash"/>
+  <text x="760" y="335" class="small">Measure outputs only</text>
+</svg>
