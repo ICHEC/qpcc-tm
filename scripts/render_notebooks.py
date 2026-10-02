@@ -3,6 +3,7 @@
 
 from html import escape
 from pathlib import Path
+from shutil import copytree
 from urllib.parse import quote
 
 import nbformat
@@ -11,6 +12,8 @@ from nbconvert import HTMLExporter
 
 SOURCE_DIR = Path("exercises")
 OUTPUT_DIR = Path("rendered-exercises")
+SOURCE_ASSETS_DIR = SOURCE_DIR / "assets"
+OUTPUT_ASSETS_DIR = OUTPUT_DIR / "assets"
 DOWNLOAD_BAR_EXCLUSIONS = {"CT_4110_Exercise_2.ipynb"}
 
 
@@ -62,6 +65,9 @@ def render_notebook(notebook_path: Path, exporter: HTMLExporter) -> None:
 
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    if SOURCE_ASSETS_DIR.exists():
+        copytree(SOURCE_ASSETS_DIR, OUTPUT_ASSETS_DIR, dirs_exist_ok=True)
+
     exporter = HTMLExporter(template_name="lab")
     for notebook_path in sorted(SOURCE_DIR.glob("*.ipynb")):
         render_notebook(notebook_path, exporter)
