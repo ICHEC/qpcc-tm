@@ -1,26 +1,26 @@
 [
   {
+    "front": "Which four broad families organize the quantum algorithms introduced in this course?",
+    "back": "Toy problems, reusable building blocks, foundational algorithms, and NISQ algorithms. Deutsch–Jozsa and Simon illustrate toy problems; QFT and QPE are building blocks; Shor, Grover, and quantum walks are foundational; VQE and QAOA are NISQ examples."
+  },
+  {
+    "front": "Why are QFT and QPE described as building blocks rather than complete applications?",
+    "back": "They are reusable subroutines embedded inside larger algorithms. For example, phase estimation supports order finding in Shor's algorithm and is also connected to eigenvalue problems in quantum simulation."
+  },
+  {
     "front": "For a general basis input $|j\\rangle$, where is the value of $j$ stored after the QFT?",
     "back": "It is stored in the relative phases $e^{2\\pi i jk/N}$ of the output amplitudes, not in their magnitudes. Different values of $j$ therefore produce different phase patterns even when their measurement probabilities are identical."
   },
   {
-    "front": "Why are the output wires often reversed in a decomposed QFT circuit?",
-    "back": "The decomposition naturally emits Fourier information from least-significant to most-significant order. End-of-circuit SWAPs restore the conventional significance order; they can be omitted if later operations deliberately use the reversed convention."
-  },
-  {
-    "front": "How can the inverse QFT circuit be constructed from a forward QFT circuit?",
-    "back": "Take the adjoint: reverse the order of all gates and invert each gate. Hadamard and SWAP gates remain unchanged, while every controlled phase rotation changes the sign of its angle."
-  },
-  {
-    "front": "Why do successive counting qubits in QPE control $U$, $U^2$, $U^4$, and so on?",
-    "back": "For an eigenstate, $U^{2^j}$ contributes the phase $e^{2\\pi i 2^j\\phi}$. These exponentially increasing powers encode different binary significance levels of the phase across the counting register."
+    "front": "Why is global phase irrelevant but relative phase important in a QFT output?",
+    "back": "Multiplying the entire state by one phase factor does not change any physical prediction. Phase differences between basis-state amplitudes do affect later interference, allowing a subsequent circuit such as an inverse QFT to expose the encoded information."
   },
   {
     "front": "What happens in QPE when the phase cannot be represented exactly with the available counting qubits?",
-    "back": "With $t$ counting qubits, estimates lie on a grid with spacing $1/2^t$. A non-exact phase produces a probability distribution concentrated around the nearest grid points rather than one deterministic result."
+    "back": "The output is not deterministic. Measurement probability is concentrated on the grid points nearest the true phase, and repeated runs reveal a distribution from which the best finite-precision estimate can be selected."
   },
   {
-    "front": "How should Qiskit bit ordering be handled in QFT and QPE circuits?",
-    "back": "Distinguish circuit-wire order, integer significance, and displayed classical-string order. Qiskit treats qubit 0 as least significant but draws it at the top. `reverse_bits()` reverses the circuit's bit ordering; it does not insert physical SWAP gates."
+    "front": "What does QPE return if its target register is a superposition of eigenstates?",
+    "back": "The circuit correlates each eigenstate component with its own phase estimate. Measuring the counting register samples one eigenphase, with probability determined by the squared magnitude of the corresponding eigenstate component."
   }
 ]
