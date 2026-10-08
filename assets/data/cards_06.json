@@ -1,31 +1,7 @@
 [
   {
-    "front": "Which four broad families organize the quantum algorithms introduced in this course?",
-    "back": "Toy problems, reusable building blocks, foundational algorithms, and NISQ algorithms. Deutsch–Jozsa and Simon illustrate toy problems; QFT and QPE are building blocks; Shor, Grover, and quantum walks are foundational; VQE and QAOA are NISQ examples."
-  },
-  {
-    "front": "Why are QFT and QPE described as building blocks rather than complete applications?",
-    "back": "They are reusable subroutines embedded inside larger algorithms. For example, phase estimation supports order finding in Shor's algorithm and is also connected to eigenvalue problems in quantum simulation."
-  },
-  {
-    "front": "What historical problem led Joseph Fourier to develop Fourier analysis?",
-    "back": "Fourier studied heat propagation in solids in the early nineteenth century. He showed that complicated temperature distributions could be represented using sums of simple sine and cosine waves."
-  },
-  {
-    "front": "What is the kernel of the continuous Fourier transform, and why does it contain both sine and cosine?",
-    "back": "The kernel is the complex exponential $e^{-i\\omega t}$. Euler's formula, $e^{-i\\omega t}=\\cos(\\omega t)-i\\sin(\\omega t)$, shows that it compares the input with both cosine and sine waves of angular frequency $\\omega$."
-  },
-  {
-    "front": "How does the discrete Fourier transform (DFT) differ from the continuous Fourier transform?",
-    "back": "The continuous transform integrates a function over a continuous variable. The DFT instead maps a finite vector of $N$ complex samples to $N$ complex coefficients using a finite sum."
-  },
-  {
     "front": "For a general basis input $|j\\rangle$, where is the value of $j$ stored after the QFT?",
     "back": "It is stored in the relative phases $e^{2\\pi i jk/N}$ of the output amplitudes, not in their magnitudes. Different values of $j$ therefore produce different phase patterns even when their measurement probabilities are identical."
-  },
-  {
-    "front": "Why is global phase irrelevant but relative phase important in a QFT output?",
-    "back": "Multiplying the entire state by one phase factor does not change any physical prediction. Phase differences between basis-state amplitudes do affect later interference, allowing a subsequent circuit such as an inverse QFT to expose the encoded information."
   },
   {
     "front": "Why are the output wires often reversed in a decomposed QFT circuit?",
@@ -36,39 +12,15 @@
     "back": "Take the adjoint: reverse the order of all gates and invert each gate. Hadamard and SWAP gates remain unchanged, while every controlled phase rotation changes the sign of its angle."
   },
   {
-    "front": "What is an approximate QFT?",
-    "back": "It is a QFT circuit in which very small controlled rotations are omitted. This shortens the circuit and can reduce accumulated hardware error, at the cost of a bounded loss of accuracy."
-  },
-  {
     "front": "Why do successive counting qubits in QPE control $U$, $U^2$, $U^4$, and so on?",
     "back": "For an eigenstate, $U^{2^j}$ contributes the phase $e^{2\\pi i 2^j\\phi}$. These exponentially increasing powers encode different binary significance levels of the phase across the counting register."
   },
   {
-    "front": "What resolution does a QPE counting register with $t$ qubits provide?",
-    "back": "Its measurement grid has spacing $1/2^t$, so increasing $t$ adds binary digits of phase resolution. The estimate is obtained by interpreting the measured integer $m$ as $m/2^t$."
-  },
-  {
     "front": "What happens in QPE when the phase cannot be represented exactly with the available counting qubits?",
-    "back": "The output is not deterministic. Measurement probability is concentrated on the grid points nearest the true phase, and repeated runs reveal a distribution from which the best finite-precision estimate can be selected."
+    "back": "With $t$ counting qubits, estimates lie on a grid with spacing $1/2^t$. A non-exact phase produces a probability distribution concentrated around the nearest grid points rather than one deterministic result."
   },
   {
-    "front": "What does QPE return if its target register is a superposition of eigenstates?",
-    "back": "The circuit correlates each eigenstate component with its own phase estimate. Measuring the counting register samples one eigenphase, with probability determined by the squared magnitude of the corresponding eigenstate component."
-  },
-  {
-    "front": "Why is a statevector useful when testing a QFT implementation?",
-    "back": "Computational-basis counts hide relative phases. A statevector exposes the complex amplitudes, letting you compare a hand-built transform with a reference implementation up to an irrelevant global phase."
-  },
-  {
-    "front": "Which three orderings must be distinguished when reading a Qiskit QFT or QPE result?",
-    "back": "Distinguish circuit-wire order, integer significance, and displayed classical-string order. Qiskit treats qubit 0 as least significant, draws it at the top, and prints the highest-index classical bit on the left."
-  },
-  {
-    "front": "Does Qiskit's `reverse_bits()` insert physical SWAP gates?",
-    "back": "No. It returns a circuit whose qubit and classical-bit ordering is reversed. It is a representation and wiring transformation, whereas a `swap` gate is an operation applied to the quantum state."
-  },
-  {
-    "front": "How can a hand-built QFT be checked against Qiskit's `QFTGate`?",
-    "back": "Prepare identical inputs under one documented bit-order convention, obtain both statevectors, and compare them up to global phase with `Statevector.equiv`. A forward transform followed by its inverse should also recover the original state."
+    "front": "How should Qiskit bit ordering be handled in QFT and QPE circuits?",
+    "back": "Distinguish circuit-wire order, integer significance, and displayed classical-string order. Qiskit treats qubit 0 as least significant but draws it at the top. `reverse_bits()` reverses the circuit's bit ordering; it does not insert physical SWAP gates."
   }
 ]
