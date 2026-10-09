@@ -1,6 +1,6 @@
 [
   {
-    "front": "Which four broad families organize the quantum algorithms introduced in this course?",
+    "front": "Which four broad families are the quantum algorithms introduced in this course organized into?",
     "back": "Toy problems, reusable building blocks, foundational algorithms, and NISQ algorithms. Deutsch–Jozsa and Simon illustrate toy problems; QFT and QPE are building blocks; Shor, Grover, and quantum walks are foundational; VQE and QAOA are NISQ examples."
   },
   {
