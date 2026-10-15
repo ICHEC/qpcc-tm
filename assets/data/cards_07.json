@@ -1,10 +1,34 @@
 [
-    {
-        "front": "Front",
-        "back": "Back"    
-    },
-    {
-        "front": "Front",
-        "back": "Back"
-    }
+  {
+    "front": "What does $a \\bmod n$ mean? Give one example.",
+    "back": "It is the remainder after dividing $a$ by $n$. For example, $13 \\bmod 5 = 3$ because $13 = 2 \\times 5 + 3$."
+  },
+  {
+    "front": "What is XOR, and which identity lets us recover a hidden bit string from $y=x\\oplus c$?",
+    "back": "XOR is bitwise addition modulo 2: equal bits give 0 and different bits give 1. Because XOR is its own inverse, $y=x\\oplus c$ implies $c=x\\oplus y$."
+  },
+  {
+    "front": "What information does one run of Simon's quantum circuit reveal about $c$?",
+    "back": "A measured bit string $x$ satisfies $x\\cdot c=0\\pmod 2$. In other words, the measured string is orthogonal to the hidden string over arithmetic modulo 2."
+  },
+  {
+    "front": "How is the hidden string recovered from Simon's measurement results?",
+    "back": "Run the circuit about $n$ times to collect independent equations $x_i\\cdot c=0\\pmod 2$, then solve the resulting linear system classically using arithmetic modulo 2. The nonzero solution is $c$."
+  },
+  {
+    "front": "Why does efficiently factoring the public RSA modulus $N=pq$ compromise RSA?",
+    "back": "Knowing $p$ and $q$ lets an attacker compute $\\phi(N)=(p-1)(q-1)$ and then recover the private exponent $d$ from $de=1\\pmod{\\phi(N)}$."
+  },
+  {
+    "front": "How does quantum phase estimation contribute to Shor's algorithm?",
+    "back": "QPE is applied using modular multiplication, $U|y\\rangle=|xy\\bmod N\\rangle$, to extract information about the period or order $r$. Classical number theory then converts a suitable order into factors of $N$."
+  },
+  {
+    "front": "What common structure connects Simon's and Shor's algorithms?",
+    "back": "Both reveal a hidden periodic structure and can be viewed as hidden-subgroup problems. Simon finds a hidden XOR mask $c$, while Shor's order finding finds a period $r$ in modular exponentiation."
+  },
+  {
+    "front": "What is the main cryptographic consequence of a large fault-tolerant quantum computer running Shor's algorithm?",
+    "back": "It could efficiently break widely used public-key systems based on factoring or discrete logarithms, including RSA and Diffie–Hellman. This motivates migration to post-quantum cryptography."
+  }
 ]
