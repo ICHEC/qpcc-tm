@@ -1,35 +1,51 @@
 [
-    {
-        "front": "What are the two ways in which quantum computers give us an advantage with respect to classical?",
-        "back": "They can be far more powerful than classical and change the way we think about problems."    
-    },
-    {
-        "front": "What does big O indicate in computational complexity theory?",
-        "back": "It indicates the limit behaviour of a function."
-    },
-    {
-        "front": "What does quantum parallelism allow us in the Deutsch algorithm?",
-        "back": "It allows us to simultaneously evaluate the two possible values of f."     
-    },
-    {   "front": "How many queries are needed to classically solve the Deutsch-Jozsa problem for a n-bit function?",
-        "back": "$2^{n-1}+1$ queries are needed in the worst case scenario."
-    },
-    {   
-        "front": "Is the QFT an unitary transform?",
-        "back": "Yes, it is unitary."
-    },
-    {
-        "front": "What does the QFT do to a quantum state?",
-        "back": "It changes the basis from the computational basis to the frequency basis."
-    },
-    {
-        "front" : "What is required as an input for QPE?",
-        "back" : "A unitary opertor U and one of its eigenstates |u>."
-    },
-    {
-        "front" : "How does the number of qubits in the first register affects QPE behaviour?",
-        "back" : "More qubits imply higher precision in the phase estimate."
-    }
-
+  {
+    "front": "What does NISQ stand for, and why are NISQ algorithms needed?",
+    "back": "NISQ stands for Noisy Intermediate-Scale Quantum. NISQ algorithms use relatively few qubits and shallow circuits so that useful experiments can be run on today's noisy quantum hardware."
+  },
+  {
+    "front": "What is the basic structure of a variational quantum algorithm?",
+    "back": "A parameterized quantum circuit prepares a trial state, measurements produce a cost function, and a classical optimizer updates the circuit parameters to reduce that cost."
+  },
+  {
+    "front": "How is $\\langle Z\\rangle$ estimated from $N$ measurement shots?",
+    "back": "If $n_0$ shots produce 0 and $n_1$ produce 1, then $\\langle Z\\rangle \\approx (n_0-n_1)/N$. More shots generally reduce the statistical uncertainty."
+  },
+  {
+    "front": "Which basis changes are required before measuring the Pauli $X$, $Y$, and $Z$ expectation values?",
+    "back": "For $X$, apply $H$. For $Y$, apply $S^\\dagger$ followed by $H$. For $Z$, no basis-change gate is required. Then measure in the computational basis."
+  },
+  {
+    "front": "How is the expectation value of a multi-qubit Pauli product obtained from measured bit strings?",
+    "back": "Assign each measured bit string parity $+1$ when it contains an even number of ones and $-1$ when it contains an odd number, then average these parity values over all shots."
+  },
+  {
+    "front": "What do the Hamiltonian and ground state represent?",
+    "back": "The Hamiltonian $H$ represents the energy of a quantum system. The ground state is the state that minimizes $\\langle H\\rangle$ and therefore has the lowest possible energy."
+  },
+  {
+    "front": "What is the variational principle used by VQE?",
+    "back": "For any trial state $|\\psi\\rangle$, $\\langle\\psi|H|\\psi\\rangle$ is greater than or equal to the true ground-state energy. Minimizing the trial energy therefore approaches the ground state."
+  },
+  {
+    "front": "What is an ansatz in the Variational Quantum Eigensolver?",
+    "back": "An ansatz is a parameterized quantum circuit used to prepare trial states. Its rotation angles are optimized classically, while entangling gates allow it to represent correlated states."
+  },
+  {
+    "front": "What steps form the VQE workflow?",
+    "back": "Encode the problem as a Hamiltonian, prepare an ansatz state, measure the Hamiltonian expectation value, update the parameters with a classical optimizer, and repeat until the energy converges."
+  },
+  {
+    "front": "Why did the entangled ansatz outperform the separable ansatz for the two-qubit Ising model?",
+    "back": "The model's ground state was entangled. A separable circuit could not represent that state, whereas adding a CNOT expanded the ansatz to include the required entangled states."
+  },
+  {
+    "front": "Why is VQE suitable for NISQ hardware, and what are its main limitations?",
+    "back": "VQE delegates optimization to a classical computer and uses the quantum processor mainly for short state-preparation and measurement circuits. Its limitations include noise, deep ansatz circuits, vanishing gradients, and large measurement costs."
+  },
+  {
+    "front": "How do Hartree–Fock, VQE, and full configuration interaction compare in quantum chemistry?",
+    "back": "Hartree–Fock is efficient but approximate. Full configuration interaction is exact within the chosen basis but scales exponentially. VQE aims to approach FCI accuracy using a hybrid quantum-classical calculation."
+  }
 ]
 
