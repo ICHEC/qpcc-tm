@@ -16,16 +16,8 @@
     "back": "For $X$, apply $H$. For $Y$, apply $S^\\dagger$ followed by $H$. For $Z$, no basis-change gate is required. Then measure in the computational basis."
   },
   {
-    "front": "How is the expectation value of a multi-qubit Pauli product obtained from measured bit strings?",
-    "back": "Assign each measured bit string parity $+1$ when it contains an even number of ones and $-1$ when it contains an odd number, then average these parity values over all shots."
-  },
-  {
     "front": "What do the Hamiltonian and ground state represent?",
     "back": "The Hamiltonian $H$ represents the energy of a quantum system. The ground state is the state that minimizes $\\langle H\\rangle$ and therefore has the lowest possible energy."
-  },
-  {
-    "front": "What is the variational principle used by VQE?",
-    "back": "For any trial state $|\\psi\\rangle$, $\\langle\\psi|H|\\psi\\rangle$ is greater than or equal to the true ground-state energy. Minimizing the trial energy therefore approaches the ground state."
   },
   {
     "front": "What is an ansatz in the Variational Quantum Eigensolver?",
