@@ -1,10 +1,42 @@
 [
-    {
-        "front": "Front",
-        "back": "Back"    
-    },
-    {
-        "front": "Front",
-        "back": "Back"
-    }
+  {
+    "front": "Why do we minimise $(S_A-S_B)^2$ rather than $|S_A-S_B|$ in a QUBO formulation of number partitioning?",
+    "back": "Both objectives have the same minimisers because squaring and taking the absolute value are both increasing functions of the non-negative imbalance $|S_A-S_B|$. The square is preferred because it expands directly into a quadratic polynomial in the binary variables, whereas the absolute value is not itself a QUBO. Squaring also penalises large imbalances more strongly."
+  },
+  {
+    "front": "How can a constrained optimisation problem be represented as a QUBO if QUBO means quadratic unconstrained binary optimisation?",
+    "back": "Constraints are incorporated into the objective as quadratic penalty terms. For example, the equality $g(\\mathbf{x})=0$ can be encouraged by adding $A[g(\\mathbf{x})]^2$, where $A>0$ is a penalty weight. The weight must be large enough to make constraint violations unattractive, but an excessively large value can make the energy landscape and numerical optimisation poorly scaled."
+  },
+  {
+    "front": "What other problems can be expressed as QUBOs?",
+    "back": "The same structure appears in balancing boxes between delivery trucks, selecting fair teams using student scores, and grouping requested steel lengths to reduce scrappage. Broader examples include scheduling, assignment, routing, portfolio selection, power-grid optimisation, spin-glass models, and molecular conformation. A problem is suitable when its decisions can be encoded as binary variables and its objective and penalties can be reduced to quadratic terms."
+  },
+  {
+    "front": "What classical strategies can be used to solve the number-partitioning QUBO?",
+    "back": "Pick-me-first sorts the values and repeatedly assigns the next value to the lighter partition. Greedy search starts from one assignment and accepts the best improving local move, but can become trapped in a local minimum. Simulated annealing sometimes accepts a worse move with probability related to $e^{-\\Delta E/T}$, allowing it to escape local minima while the temperature is high. Exhaustive enumeration gives an exact reference only for small $N$."
+  },
+  {
+    "front": "Why may the QUBO matrix $Q$ be taken to be symmetric?",
+    "back": "Only the symmetric part of $Q$ contributes to $\\mathbf{x}^TQ\\mathbf{x}$. Writing $Q=Q_s+Q_a$, where $Q_s=(Q+Q^T)/2$ and $Q_a=(Q-Q^T)/2$, gives $\\mathbf{x}^TQ_a\\mathbf{x}=0$. Therefore $\\mathbf{x}^TQ\\mathbf{x}=\\mathbf{x}^TQ_s\\mathbf{x}$. For symmetric $Q$, an off-diagonal interaction appears through both $Q_{ij}$ and $Q_{ji}$."
+  },
+  {
+    "front": "Where could a quantum advantage in QAOA come from?",
+    "back": "QAOA represents all $2^N$ candidate bit strings in superposition and applies the cost Hamiltonian to encode their objective values as relative phases. The mixer then creates interference between candidate solutions, increasing the probability of measuring low-cost states for well-chosen parameters. This combination of superposition, interference, and entanglement allows QAOA to explore and reshape a large combinatorial solution space using a structured quantum circuit."
+  },
+  {
+    "front": "What are the different purposes of the cost and mixer Hamiltonians in QAOA?",
+    "back": "The cost Hamiltonian $H_C$ is diagonal in the computational basis and assigns each bit string its objective value. Its unitary $e^{-i\\gamma H_C}$ encodes those values as relative phases. The mixer Hamiltonian $H_M$ creates transitions between candidate bit strings; its unitary changes amplitudes so that interference can alter their probabilities. A classical optimiser chooses $\\gamma$ and $\\beta$ so that lower-cost strings receive more probability on average."
+  },
+  {
+    "front": "What does the QAOA depth parameter $p$ control?",
+    "back": "The depth $p$ is the number of alternating cost and mixer layers. A depth-$p$ circuit has parameter vectors $\\boldsymbol\\gamma=(\\gamma_1,\\ldots,\\gamma_p)$ and $\\boldsymbol\\beta=(\\beta_1,\\ldots,\\beta_p)$. Increasing $p$ gives the ansatz more freedom to reshape the output distribution, while also increasing circuit depth and the number of parameters to optimise."
+  },
+  {
+    "front": "Why can a constant identity term be omitted when implementing the QAOA cost unitary?",
+    "back": "If $H_C=\\kappa I+\\widetilde H_C$, then $e^{-i\\gamma H_C}=e^{-i\\gamma\\kappa}e^{-i\\gamma\\widetilde H_C}$. The identity contributes the same global phase to every basis state, so it cannot change interference or measurement probabilities. The constant must only be restored when the absolute QUBO energy is reported."
+  },
+  {
+    "front": "Why do number-partitioning solutions commonly occur in complementary pairs?",
+    "back": "A bit string $\\mathbf{x}$ assigns items to partitions A and B. Its complement $\\mathbf{1}-\\mathbf{x}$ exchanges the two partition labels, changing $S_A-S_B$ to its negative but leaving $(S_A-S_B)^2$ unchanged. The two strings therefore represent the same physical split and have the same cost."
+  }
 ]
